@@ -194,7 +194,8 @@ def view(name, fields, collection, rows, field_columns):
     return data,ids
 
 def build():
-    for folder in ['player search filters','views','guide']:(OUT/folder).mkdir(parents=True,exist_ok=True)
+    for folder in ['player search filters','views']:(OUT/folder).mkdir(parents=True,exist_ok=True)
+    (BASE/'docs').mkdir(parents=True,exist_ok=True)
     rows,field_columns=columns_from_game()
     manifest=[];guide=[]
     for title,positions,criteria,review,source in PROFILES:
@@ -228,13 +229,13 @@ def build():
             'review_columns':[metadata[f]['name'] for f in review],
             'first_comparison_stat':metadata[criteria[0][0]]['name']})
     (OUT/'manifest.json').write_text(json.dumps(manifest,indent=2)+'\n',encoding='utf-8')
-    (OUT/'guide/profiles.json').write_text(json.dumps(guide,indent=2)+'\n',encoding='utf-8')
+    (BASE/'docs/profiles.json').write_text(json.dumps(guide,indent=2)+'\n',encoding='utf-8')
     lines=['# Profile criteria','','All thresholds are minimums joined by AND. Per-90 values are rates, percentages use percent units. Early omits minutes; Midseason requires 1000; Full Season requires 2000.','','The first comparison stat is a suggested sort column; views do not enforce a sort order. Other metrics provide context rather than extra hard requirements.','']
     for p in guide:
         lines += ['## '+p['profile'],'','Positions: '+', '.join(p['positions'])+'. Source: '+p['source']+'.','']
         lines += [f'- {k}: at least {v}' for k,v in p['minimums'].items()]
         lines += ['','Review columns: '+', '.join(p['review_columns'])+'.','','Start comparison with: '+p['first_comparison_stat']+'.','']
-    (OUT/'guide/profiles.md').write_text('\n'.join(lines),encoding='utf-8')
+    (BASE/'docs/profiles.md').write_text('\n'.join(lines),encoding='utf-8')
     print(json.dumps({'filters':sum('criteria' in x for x in manifest),'views':sum('columns' in x for x in manifest),'profiles':len(PROFILES),'round_trip_checks':len(manifest)}))
     return manifest
 

@@ -1,0 +1,2800 @@
+[
+  {
+    "file": "player search filters/Chase GK Shot Stopper - Early.fmf",
+    "sha256": "8d581825377e4fec23b705ce93de0ecbb5208f0537c4dd9f2e9cba90cc7c793f",
+    "positions": [
+      "GK"
+    ],
+    "position_mask": 1,
+    "minutes": 0,
+    "source": "Own provisional",
+    "criteria": [
+      {
+        "field": "Pxg9",
+        "stat": "Expected Goals Prevented per 90 minutes",
+        "minimum": 0.1
+      }
+    ],
+    "league_conditions": [],
+    "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
+  },
+  {
+    "file": "player search filters/Chase GK Shot Stopper - Midseason.fmf",
+    "sha256": "c56e8c51216a2933c3566afc10801e85ef76bcff4ac7d75865d61fac990cb3f2",
+    "positions": [
+      "GK"
+    ],
+    "position_mask": 1,
+    "minutes": 1000,
+    "source": "Own provisional",
+    "criteria": [
+      {
+        "field": "POmi",
+        "stat": "Minutes",
+        "minimum": 1000
+      },
+      {
+        "field": "Pxg9",
+        "stat": "Expected Goals Prevented per 90 minutes",
+        "minimum": 0.1
+      }
+    ],
+    "league_conditions": [],
+    "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
+  },
+  {
+    "file": "player search filters/Chase GK Shot Stopper - Full Season.fmf",
+    "sha256": "f901172ac0ac615a4012c396d1d49af0a3e60b3eb059d330cd0ef6e364c35587",
+    "positions": [
+      "GK"
+    ],
+    "position_mask": 1,
+    "minutes": 2000,
+    "source": "Own provisional",
+    "criteria": [
+      {
+        "field": "POmi",
+        "stat": "Minutes",
+        "minimum": 2000
+      },
+      {
+        "field": "Pxg9",
+        "stat": "Expected Goals Prevented per 90 minutes",
+        "minimum": 0.1
+      }
+    ],
+    "league_conditions": [],
+    "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
+  },
+  {
+    "file": "views/Chase GK Shot Stopper - Search.fmf",
+    "sha256": "9414b736a4564bb81b7f9fcb14800657219cd8127fe6dcc9bee8190b2c45151e",
+    "collection": "PlayerSearchResultsViewCollection",
+    "columns": [
+      "portrait-name",
+      "age",
+      "club",
+      "club-division",
+      "position",
+      "stats-minutes",
+      "apps",
+      "chalkboard-stats-expected-goals-prevented-per90",
+      "chalkboard-stats-save-ratio",
+      "chalkboard-stats-expected-save-percentage",
+      "chalkboard-stats-pass-completion-ratio",
+      "average-rating",
+      "wage",
+      "transfer-value",
+      "contract-expiry-date",
+      "recommendation-grade-only"
+    ],
+    "native_import_status": "Pending"
+  },
+  {
+    "file": "views/Chase GK Shot Stopper - Shortlist.fmf",
+    "sha256": "06879836e34c83239626e5648bf154fec07dc9cc6a0ac4fdaa061c85029b1850",
+    "collection": "PlayerSearchShortlistViewCollection",
+    "columns": [
+      "portrait-name",
+      "age",
+      "club",
+      "club-division",
+      "position",
+      "stats-minutes",
+      "apps",
+      "chalkboard-stats-expected-goals-prevented-per90",
+      "chalkboard-stats-save-ratio",
+      "chalkboard-stats-expected-save-percentage",
+      "chalkboard-stats-pass-completion-ratio",
+      "average-rating",
+      "wage",
+      "transfer-value",
+      "contract-expiry-date",
+      "recommendation-grade-only"
+    ],
+    "native_import_status": "Pending"
+  },
+  {
+    "file": "player search filters/Chase CB Defensive - Early.fmf",
+    "sha256": "3ca9ac73f01ee59ca5885c4b931bdc4ebea4790fb525d25fd4710c3fbaaeafb4",
+    "positions": [
+      "DC"
+    ],
+    "position_mask": 16,
+    "minutes": 0,
+    "source": "Own provisional",
+    "criteria": [
+      {
+        "field": "POhr",
+        "stat": "Headers Won Ratio",
+        "minimum": 60
+      },
+      {
+        "field": "POHg",
+        "stat": "Headers Won per 90 minutes",
+        "minimum": 2
+      },
+      {
+        "field": "POtr",
+        "stat": "Tackle completion ratio",
+        "minimum": 70
+      }
+    ],
+    "league_conditions": [],
+    "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
+  },
+  {
+    "file": "player search filters/Chase CB Defensive - Midseason.fmf",
+    "sha256": "00fd94272400fdd8f416e31cae89bc6b2413db865bb2fe62b2cae61d857a46e8",
+    "positions": [
+      "DC"
+    ],
+    "position_mask": 16,
+    "minutes": 1000,
+    "source": "Own provisional",
+    "criteria": [
+      {
+        "field": "POmi",
+        "stat": "Minutes",
+        "minimum": 1000
+      },
+      {
+        "field": "POhr",
+        "stat": "Headers Won Ratio",
+        "minimum": 60
+      },
+      {
+        "field": "POHg",
+        "stat": "Headers Won per 90 minutes",
+        "minimum": 2
+      },
+      {
+        "field": "POtr",
+        "stat": "Tackle completion ratio",
+        "minimum": 70
+      }
+    ],
+    "league_conditions": [],
+    "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
+  },
+  {
+    "file": "player search filters/Chase CB Defensive - Full Season.fmf",
+    "sha256": "cbb5e6b8c64875e9257d93d372518f249720416b663faa0dcf69b2cf4d254b73",
+    "positions": [
+      "DC"
+    ],
+    "position_mask": 16,
+    "minutes": 2000,
+    "source": "Own provisional",
+    "criteria": [
+      {
+        "field": "POmi",
+        "stat": "Minutes",
+        "minimum": 2000
+      },
+      {
+        "field": "POhr",
+        "stat": "Headers Won Ratio",
+        "minimum": 60
+      },
+      {
+        "field": "POHg",
+        "stat": "Headers Won per 90 minutes",
+        "minimum": 2
+      },
+      {
+        "field": "POtr",
+        "stat": "Tackle completion ratio",
+        "minimum": 70
+      }
+    ],
+    "league_conditions": [],
+    "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
+  },
+  {
+    "file": "views/Chase CB Defensive - Search.fmf",
+    "sha256": "41a65bb0c9f58d1cde83cbd42cc9b90b269655f7f3e858b1c1f93f80577bfaaf",
+    "collection": "PlayerSearchResultsViewCollection",
+    "columns": [
+      "portrait-name",
+      "age",
+      "club",
+      "club-division",
+      "position",
+      "stats-minutes",
+      "apps",
+      "chalkboard-stats-headers-won-ratio",
+      "chalkboard-stats-headers-won-per90",
+      "chalkboard-stats-tackle-completion-ratio",
+      "chalkboard-stats-interceptions-per90",
+      "chalkboard-stats-shots-blocked-defending-per90",
+      "chalkboard-stats-clearances-per90",
+      "average-rating",
+      "wage",
+      "transfer-value",
+      "contract-expiry-date",
+      "recommendation-grade-only"
+    ],
+    "native_import_status": "Pending"
+  },
+  {
+    "file": "views/Chase CB Defensive - Shortlist.fmf",
+    "sha256": "4c2c95c0e0f84b94be63a27c2d706fb92e0fd3ded79ee51b5338e19f344f87f9",
+    "collection": "PlayerSearchShortlistViewCollection",
+    "columns": [
+      "portrait-name",
+      "age",
+      "club",
+      "club-division",
+      "position",
+      "stats-minutes",
+      "apps",
+      "chalkboard-stats-headers-won-ratio",
+      "chalkboard-stats-headers-won-per90",
+      "chalkboard-stats-tackle-completion-ratio",
+      "chalkboard-stats-interceptions-per90",
+      "chalkboard-stats-shots-blocked-defending-per90",
+      "chalkboard-stats-clearances-per90",
+      "average-rating",
+      "wage",
+      "transfer-value",
+      "contract-expiry-date",
+      "recommendation-grade-only"
+    ],
+    "native_import_status": "Pending"
+  },
+  {
+    "file": "player search filters/Chase CB Ball Playing - Early.fmf",
+    "sha256": "11689070687dd38374513c3df826154755691c40986fdd291cf5005c0ab0c8fa",
+    "positions": [
+      "DC"
+    ],
+    "position_mask": 16,
+    "minutes": 0,
+    "source": "Own provisional; tackle 60 is confirmed selectable in user export",
+    "criteria": [
+      {
+        "field": "PGR9",
+        "stat": "Progressive Passes per 90 minutes",
+        "minimum": 3
+      },
+      {
+        "field": "Popa",
+        "stat": "Pass Completion Ratio",
+        "minimum": 80
+      },
+      {
+        "field": "POtr",
+        "stat": "Tackle completion ratio",
+        "minimum": 60
+      }
+    ],
+    "league_conditions": [],
+    "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
+  },
+  {
+    "file": "player search filters/Chase CB Ball Playing - Midseason.fmf",
+    "sha256": "500ff2e6d0e7c59862bdfa3894777c4d1d8029c7b27abc206ca967fa2ba182a8",
+    "positions": [
+      "DC"
+    ],
+    "position_mask": 16,
+    "minutes": 1000,
+    "source": "Own provisional; tackle 60 is confirmed selectable in user export",
+    "criteria": [
+      {
+        "field": "POmi",
+        "stat": "Minutes",
+        "minimum": 1000
+      },
+      {
+        "field": "PGR9",
+        "stat": "Progressive Passes per 90 minutes",
+        "minimum": 3
+      },
+      {
+        "field": "Popa",
+        "stat": "Pass Completion Ratio",
+        "minimum": 80
+      },
+      {
+        "field": "POtr",
+        "stat": "Tackle completion ratio",
+        "minimum": 60
+      }
+    ],
+    "league_conditions": [],
+    "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
+  },
+  {
+    "file": "player search filters/Chase CB Ball Playing - Full Season.fmf",
+    "sha256": "ea2357c5b5f46268c442a4cf43533418155efa860a240a408f0bb97e4abc00ef",
+    "positions": [
+      "DC"
+    ],
+    "position_mask": 16,
+    "minutes": 2000,
+    "source": "Own provisional; tackle 60 is confirmed selectable in user export",
+    "criteria": [
+      {
+        "field": "POmi",
+        "stat": "Minutes",
+        "minimum": 2000
+      },
+      {
+        "field": "PGR9",
+        "stat": "Progressive Passes per 90 minutes",
+        "minimum": 3
+      },
+      {
+        "field": "Popa",
+        "stat": "Pass Completion Ratio",
+        "minimum": 80
+      },
+      {
+        "field": "POtr",
+        "stat": "Tackle completion ratio",
+        "minimum": 60
+      }
+    ],
+    "league_conditions": [],
+    "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
+  },
+  {
+    "file": "views/Chase CB Ball Playing - Search.fmf",
+    "sha256": "e113757638be901ffb3775dc1d51fe6932cfb6e6ee02fa7b6e613e2dff9cdbba",
+    "collection": "PlayerSearchResultsViewCollection",
+    "columns": [
+      "portrait-name",
+      "age",
+      "club",
+      "club-division",
+      "position",
+      "stats-minutes",
+      "apps",
+      "chalkboard-stats-progressive-passes-per90",
+      "chalkboard-stats-pass-completion-ratio",
+      "chalkboard-stats-tackle-completion-ratio",
+      "chalkboard-stats-headers-won-ratio",
+      "chalkboard-stats-interceptions-per90",
+      "chalkboard-stats-possession-lost-per90",
+      "average-rating",
+      "wage",
+      "transfer-value",
+      "contract-expiry-date",
+      "recommendation-grade-only"
+    ],
+    "native_import_status": "Pending"
+  },
+  {
+    "file": "views/Chase CB Ball Playing - Shortlist.fmf",
+    "sha256": "ce048526895fe7388c3a003559e9bd57d375f0d23beea030171a0a13571e969a",
+    "collection": "PlayerSearchShortlistViewCollection",
+    "columns": [
+      "portrait-name",
+      "age",
+      "club",
+      "club-division",
+      "position",
+      "stats-minutes",
+      "apps",
+      "chalkboard-stats-progressive-passes-per90",
+      "chalkboard-stats-pass-completion-ratio",
+      "chalkboard-stats-tackle-completion-ratio",
+      "chalkboard-stats-headers-won-ratio",
+      "chalkboard-stats-interceptions-per90",
+      "chalkboard-stats-possession-lost-per90",
+      "average-rating",
+      "wage",
+      "transfer-value",
+      "contract-expiry-date",
+      "recommendation-grade-only"
+    ],
+    "native_import_status": "Pending"
+  },
+  {
+    "file": "player search filters/Chase FB Defensive - Early.fmf",
+    "sha256": "97140a0275b1fe7d8af5974173e5589d8328433cff70ee52c3b4157fac75ea96",
+    "positions": [
+      "DL",
+      "DR"
+    ],
+    "position_mask": 12,
+    "minutes": 0,
+    "source": "Own provisional",
+    "criteria": [
+      {
+        "field": "POtr",
+        "stat": "Tackle completion ratio",
+        "minimum": 70
+      },
+      {
+        "field": "POiG",
+        "stat": "Interceptions per 90 minutes",
+        "minimum": 1
+      },
+      {
+        "field": "POW9",
+        "stat": "Possession Won per 90 minutes",
+        "minimum": 3
+      }
+    ],
+    "league_conditions": [],
+    "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
+  },
+  {
+    "file": "player search filters/Chase FB Defensive - Midseason.fmf",
+    "sha256": "bbf9b059af84d6b7fff83066e6c08b5175843685c1f415fcc212626dfc709f2f",
+    "positions": [
+      "DL",
+      "DR"
+    ],
+    "position_mask": 12,
+    "minutes": 1000,
+    "source": "Own provisional",
+    "criteria": [
+      {
+        "field": "POmi",
+        "stat": "Minutes",
+        "minimum": 1000
+      },
+      {
+        "field": "POtr",
+        "stat": "Tackle completion ratio",
+        "minimum": 70
+      },
+      {
+        "field": "POiG",
+        "stat": "Interceptions per 90 minutes",
+        "minimum": 1
+      },
+      {
+        "field": "POW9",
+        "stat": "Possession Won per 90 minutes",
+        "minimum": 3
+      }
+    ],
+    "league_conditions": [],
+    "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
+  },
+  {
+    "file": "player search filters/Chase FB Defensive - Full Season.fmf",
+    "sha256": "09297a830a380400b84bbe141dafdc07957e2384e34d64e0c422374710a0b9a2",
+    "positions": [
+      "DL",
+      "DR"
+    ],
+    "position_mask": 12,
+    "minutes": 2000,
+    "source": "Own provisional",
+    "criteria": [
+      {
+        "field": "POmi",
+        "stat": "Minutes",
+        "minimum": 2000
+      },
+      {
+        "field": "POtr",
+        "stat": "Tackle completion ratio",
+        "minimum": 70
+      },
+      {
+        "field": "POiG",
+        "stat": "Interceptions per 90 minutes",
+        "minimum": 1
+      },
+      {
+        "field": "POW9",
+        "stat": "Possession Won per 90 minutes",
+        "minimum": 3
+      }
+    ],
+    "league_conditions": [],
+    "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
+  },
+  {
+    "file": "views/Chase FB Defensive - Search.fmf",
+    "sha256": "e38937cb7ea47858b4ee9b17d1a069cf23dce582a20095e366891295d6ae8706",
+    "collection": "PlayerSearchResultsViewCollection",
+    "columns": [
+      "portrait-name",
+      "age",
+      "club",
+      "club-division",
+      "position",
+      "stats-minutes",
+      "apps",
+      "chalkboard-stats-tackle-completion-ratio",
+      "chalkboard-stats-interceptions-per90",
+      "chalkboard-stats-possession-won-per90",
+      "chalkboard-stats-pass-completion-ratio",
+      "chalkboard-stats-headers-won-ratio",
+      "chalkboard-stats-possession-lost-per90",
+      "average-rating",
+      "wage",
+      "transfer-value",
+      "contract-expiry-date",
+      "recommendation-grade-only"
+    ],
+    "native_import_status": "Pending"
+  },
+  {
+    "file": "views/Chase FB Defensive - Shortlist.fmf",
+    "sha256": "9f758e02fe31d05a4b97b574a95bb4f2344b3d93067dd8d78ed2348874d12480",
+    "collection": "PlayerSearchShortlistViewCollection",
+    "columns": [
+      "portrait-name",
+      "age",
+      "club",
+      "club-division",
+      "position",
+      "stats-minutes",
+      "apps",
+      "chalkboard-stats-tackle-completion-ratio",
+      "chalkboard-stats-interceptions-per90",
+      "chalkboard-stats-possession-won-per90",
+      "chalkboard-stats-pass-completion-ratio",
+      "chalkboard-stats-headers-won-ratio",
+      "chalkboard-stats-possession-lost-per90",
+      "average-rating",
+      "wage",
+      "transfer-value",
+      "contract-expiry-date",
+      "recommendation-grade-only"
+    ],
+    "native_import_status": "Pending"
+  },
+  {
+    "file": "player search filters/Chase WB Attacking - Early.fmf",
+    "sha256": "e43719a6c023d701cc5a59d2d8c64ad0e14013821b0996b01022915d1897a026",
+    "positions": [
+      "WBL",
+      "WBR"
+    ],
+    "position_mask": 96,
+    "minutes": 0,
+    "source": "User screenshot thresholds",
+    "criteria": [
+      {
+        "field": "Podr",
+        "stat": "Dribbles Made per 90 minutes",
+        "minimum": 1.5
+      },
+      {
+        "field": "POSp",
+        "stat": "High Intensity Sprints per 90 minutes",
+        "minimum": 10
+      },
+      {
+        "field": "POP9",
+        "stat": "Open Play Crosses attempted per 90 minutes",
+        "minimum": 1
+      },
+      {
+        "field": "Pop9",
+        "stat": "Open Play Key Passes per 90 minutes",
+        "minimum": 1
+      },
+      {
+        "field": "PxA9",
+        "stat": "Expected Assists per 90 minutes",
+        "minimum": 0.1
+      }
+    ],
+    "league_conditions": [],
+    "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
+  },
+  {
+    "file": "player search filters/Chase WB Attacking - Midseason.fmf",
+    "sha256": "8c559ebf6f55617d3a99372bcdac00b3a048e60002d6572bbbd655d8dbdd10ef",
+    "positions": [
+      "WBL",
+      "WBR"
+    ],
+    "position_mask": 96,
+    "minutes": 1000,
+    "source": "User screenshot thresholds",
+    "criteria": [
+      {
+        "field": "POmi",
+        "stat": "Minutes",
+        "minimum": 1000
+      },
+      {
+        "field": "Podr",
+        "stat": "Dribbles Made per 90 minutes",
+        "minimum": 1.5
+      },
+      {
+        "field": "POSp",
+        "stat": "High Intensity Sprints per 90 minutes",
+        "minimum": 10
+      },
+      {
+        "field": "POP9",
+        "stat": "Open Play Crosses attempted per 90 minutes",
+        "minimum": 1
+      },
+      {
+        "field": "Pop9",
+        "stat": "Open Play Key Passes per 90 minutes",
+        "minimum": 1
+      },
+      {
+        "field": "PxA9",
+        "stat": "Expected Assists per 90 minutes",
+        "minimum": 0.1
+      }
+    ],
+    "league_conditions": [],
+    "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
+  },
+  {
+    "file": "player search filters/Chase WB Attacking - Full Season.fmf",
+    "sha256": "6e156ea36e051540c2ff378fa93fc241e3fc0af1b44b3cf815b01e2e668163eb",
+    "positions": [
+      "WBL",
+      "WBR"
+    ],
+    "position_mask": 96,
+    "minutes": 2000,
+    "source": "User screenshot thresholds",
+    "criteria": [
+      {
+        "field": "POmi",
+        "stat": "Minutes",
+        "minimum": 2000
+      },
+      {
+        "field": "Podr",
+        "stat": "Dribbles Made per 90 minutes",
+        "minimum": 1.5
+      },
+      {
+        "field": "POSp",
+        "stat": "High Intensity Sprints per 90 minutes",
+        "minimum": 10
+      },
+      {
+        "field": "POP9",
+        "stat": "Open Play Crosses attempted per 90 minutes",
+        "minimum": 1
+      },
+      {
+        "field": "Pop9",
+        "stat": "Open Play Key Passes per 90 minutes",
+        "minimum": 1
+      },
+      {
+        "field": "PxA9",
+        "stat": "Expected Assists per 90 minutes",
+        "minimum": 0.1
+      }
+    ],
+    "league_conditions": [],
+    "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
+  },
+  {
+    "file": "views/Chase WB Attacking - Search.fmf",
+    "sha256": "f5b0ece04c7fb4adc87ba9665c37a06319dbfd69cc12d9f1a9037ba9580e1b5e",
+    "collection": "PlayerSearchResultsViewCollection",
+    "columns": [
+      "portrait-name",
+      "age",
+      "club",
+      "club-division",
+      "position",
+      "stats-minutes",
+      "apps",
+      "chalkboard-stats-dribbles-made-per90",
+      "chalkboard-stats-sprints-per90",
+      "chalkboard-stats-open-play-crosses-attempted-per90",
+      "chalkboard-stats-open-play-key-passes-per90",
+      "expected-assists-per90",
+      "chalkboard-stats-tackle-completion-ratio",
+      "chalkboard-stats-interceptions-per90",
+      "average-rating",
+      "wage",
+      "transfer-value",
+      "contract-expiry-date",
+      "recommendation-grade-only"
+    ],
+    "native_import_status": "Pending"
+  },
+  {
+    "file": "views/Chase WB Attacking - Shortlist.fmf",
+    "sha256": "b67e964182b756bedd79e3d677a04d2dd938ee7222b67a01bd7af2d56493fec0",
+    "collection": "PlayerSearchShortlistViewCollection",
+    "columns": [
+      "portrait-name",
+      "age",
+      "club",
+      "club-division",
+      "position",
+      "stats-minutes",
+      "apps",
+      "chalkboard-stats-dribbles-made-per90",
+      "chalkboard-stats-sprints-per90",
+      "chalkboard-stats-open-play-crosses-attempted-per90",
+      "chalkboard-stats-open-play-key-passes-per90",
+      "expected-assists-per90",
+      "chalkboard-stats-tackle-completion-ratio",
+      "chalkboard-stats-interceptions-per90",
+      "average-rating",
+      "wage",
+      "transfer-value",
+      "contract-expiry-date",
+      "recommendation-grade-only"
+    ],
+    "native_import_status": "Pending"
+  },
+  {
+    "file": "player search filters/Chase FB Inverted - Early.fmf",
+    "sha256": "5e0fee9adaaf723f253734b3342d5f9f6c568fc7cf157f05337215c7fd39b074",
+    "positions": [
+      "DL",
+      "DR",
+      "WBL",
+      "WBR"
+    ],
+    "position_mask": 108,
+    "minutes": 0,
+    "source": "Own provisional",
+    "criteria": [
+      {
+        "field": "PGR9",
+        "stat": "Progressive Passes per 90 minutes",
+        "minimum": 3
+      },
+      {
+        "field": "Popa",
+        "stat": "Pass Completion Ratio",
+        "minimum": 80
+      },
+      {
+        "field": "POiG",
+        "stat": "Interceptions per 90 minutes",
+        "minimum": 0.75
+      }
+    ],
+    "league_conditions": [],
+    "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
+  },
+  {
+    "file": "player search filters/Chase FB Inverted - Midseason.fmf",
+    "sha256": "63e724bf15c5bf357ee0c59a2807fb3a693b8fba431b7b5045b403228214b8dc",
+    "positions": [
+      "DL",
+      "DR",
+      "WBL",
+      "WBR"
+    ],
+    "position_mask": 108,
+    "minutes": 1000,
+    "source": "Own provisional",
+    "criteria": [
+      {
+        "field": "POmi",
+        "stat": "Minutes",
+        "minimum": 1000
+      },
+      {
+        "field": "PGR9",
+        "stat": "Progressive Passes per 90 minutes",
+        "minimum": 3
+      },
+      {
+        "field": "Popa",
+        "stat": "Pass Completion Ratio",
+        "minimum": 80
+      },
+      {
+        "field": "POiG",
+        "stat": "Interceptions per 90 minutes",
+        "minimum": 0.75
+      }
+    ],
+    "league_conditions": [],
+    "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
+  },
+  {
+    "file": "player search filters/Chase FB Inverted - Full Season.fmf",
+    "sha256": "34391ae9dcd61778323ccf83346bac46c03afeb1d638ace5c9cce006bd1de994",
+    "positions": [
+      "DL",
+      "DR",
+      "WBL",
+      "WBR"
+    ],
+    "position_mask": 108,
+    "minutes": 2000,
+    "source": "Own provisional",
+    "criteria": [
+      {
+        "field": "POmi",
+        "stat": "Minutes",
+        "minimum": 2000
+      },
+      {
+        "field": "PGR9",
+        "stat": "Progressive Passes per 90 minutes",
+        "minimum": 3
+      },
+      {
+        "field": "Popa",
+        "stat": "Pass Completion Ratio",
+        "minimum": 80
+      },
+      {
+        "field": "POiG",
+        "stat": "Interceptions per 90 minutes",
+        "minimum": 0.75
+      }
+    ],
+    "league_conditions": [],
+    "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
+  },
+  {
+    "file": "views/Chase FB Inverted - Search.fmf",
+    "sha256": "ff3ff44caecff0ad24ed67737b88af304efd8140ebfab250ddc3e1127e25799c",
+    "collection": "PlayerSearchResultsViewCollection",
+    "columns": [
+      "portrait-name",
+      "age",
+      "club",
+      "club-division",
+      "position",
+      "stats-minutes",
+      "apps",
+      "chalkboard-stats-progressive-passes-per90",
+      "chalkboard-stats-pass-completion-ratio",
+      "chalkboard-stats-interceptions-per90",
+      "chalkboard-stats-dribbles-made-per90",
+      "chalkboard-stats-possession-won-per90",
+      "chalkboard-stats-possession-lost-per90",
+      "average-rating",
+      "wage",
+      "transfer-value",
+      "contract-expiry-date",
+      "recommendation-grade-only"
+    ],
+    "native_import_status": "Pending"
+  },
+  {
+    "file": "views/Chase FB Inverted - Shortlist.fmf",
+    "sha256": "8bf23c1ed97394a4a7596821366905ef84b2e4e16d311a9754830fb8946d0417",
+    "collection": "PlayerSearchShortlistViewCollection",
+    "columns": [
+      "portrait-name",
+      "age",
+      "club",
+      "club-division",
+      "position",
+      "stats-minutes",
+      "apps",
+      "chalkboard-stats-progressive-passes-per90",
+      "chalkboard-stats-pass-completion-ratio",
+      "chalkboard-stats-interceptions-per90",
+      "chalkboard-stats-dribbles-made-per90",
+      "chalkboard-stats-possession-won-per90",
+      "chalkboard-stats-possession-lost-per90",
+      "average-rating",
+      "wage",
+      "transfer-value",
+      "contract-expiry-date",
+      "recommendation-grade-only"
+    ],
+    "native_import_status": "Pending"
+  },
+  {
+    "file": "player search filters/Chase DM Holding - Early.fmf",
+    "sha256": "cc81f80c900b86648dd0fd64cd11a97606bbe4659e98e767c8dfec0bbb2a0020",
+    "positions": [
+      "DM"
+    ],
+    "position_mask": 128,
+    "minutes": 0,
+    "source": "Own provisional",
+    "criteria": [
+      {
+        "field": "POiG",
+        "stat": "Interceptions per 90 minutes",
+        "minimum": 1
+      },
+      {
+        "field": "POW9",
+        "stat": "Possession Won per 90 minutes",
+        "minimum": 3
+      },
+      {
+        "field": "Popa",
+        "stat": "Pass Completion Ratio",
+        "minimum": 80
+      }
+    ],
+    "league_conditions": [],
+    "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
+  },
+  {
+    "file": "player search filters/Chase DM Holding - Midseason.fmf",
+    "sha256": "4c6df0717b989d71267dd730ad1a62fe6fcf905d57d0afa0c78143c8d189c5a4",
+    "positions": [
+      "DM"
+    ],
+    "position_mask": 128,
+    "minutes": 1000,
+    "source": "Own provisional",
+    "criteria": [
+      {
+        "field": "POmi",
+        "stat": "Minutes",
+        "minimum": 1000
+      },
+      {
+        "field": "POiG",
+        "stat": "Interceptions per 90 minutes",
+        "minimum": 1
+      },
+      {
+        "field": "POW9",
+        "stat": "Possession Won per 90 minutes",
+        "minimum": 3
+      },
+      {
+        "field": "Popa",
+        "stat": "Pass Completion Ratio",
+        "minimum": 80
+      }
+    ],
+    "league_conditions": [],
+    "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
+  },
+  {
+    "file": "player search filters/Chase DM Holding - Full Season.fmf",
+    "sha256": "e6c36708c0970f3c3a473359f0a8fb2ac2ec67ecd49ff1de8ea46a4b32a05916",
+    "positions": [
+      "DM"
+    ],
+    "position_mask": 128,
+    "minutes": 2000,
+    "source": "Own provisional",
+    "criteria": [
+      {
+        "field": "POmi",
+        "stat": "Minutes",
+        "minimum": 2000
+      },
+      {
+        "field": "POiG",
+        "stat": "Interceptions per 90 minutes",
+        "minimum": 1
+      },
+      {
+        "field": "POW9",
+        "stat": "Possession Won per 90 minutes",
+        "minimum": 3
+      },
+      {
+        "field": "Popa",
+        "stat": "Pass Completion Ratio",
+        "minimum": 80
+      }
+    ],
+    "league_conditions": [],
+    "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
+  },
+  {
+    "file": "views/Chase DM Holding - Search.fmf",
+    "sha256": "4c31d996993cf6535b40929e6f0d12d78f86f157fab169fd404b338e5bd01c5a",
+    "collection": "PlayerSearchResultsViewCollection",
+    "columns": [
+      "portrait-name",
+      "age",
+      "club",
+      "club-division",
+      "position",
+      "stats-minutes",
+      "apps",
+      "chalkboard-stats-interceptions-per90",
+      "chalkboard-stats-possession-won-per90",
+      "chalkboard-stats-pass-completion-ratio",
+      "chalkboard-stats-tackle-completion-ratio",
+      "chalkboard-stats-possession-lost-per90",
+      "chalkboard-stats-headers-won-ratio",
+      "average-rating",
+      "wage",
+      "transfer-value",
+      "contract-expiry-date",
+      "recommendation-grade-only"
+    ],
+    "native_import_status": "Pending"
+  },
+  {
+    "file": "views/Chase DM Holding - Shortlist.fmf",
+    "sha256": "2d540c0741f2ddae08bfed95348ce515cffa5fffb00673d2395d991eb5870abc",
+    "collection": "PlayerSearchShortlistViewCollection",
+    "columns": [
+      "portrait-name",
+      "age",
+      "club",
+      "club-division",
+      "position",
+      "stats-minutes",
+      "apps",
+      "chalkboard-stats-interceptions-per90",
+      "chalkboard-stats-possession-won-per90",
+      "chalkboard-stats-pass-completion-ratio",
+      "chalkboard-stats-tackle-completion-ratio",
+      "chalkboard-stats-possession-lost-per90",
+      "chalkboard-stats-headers-won-ratio",
+      "average-rating",
+      "wage",
+      "transfer-value",
+      "contract-expiry-date",
+      "recommendation-grade-only"
+    ],
+    "native_import_status": "Pending"
+  },
+  {
+    "file": "player search filters/Chase DM CM Deep Playmaker - Early.fmf",
+    "sha256": "7708cc1ee33751d643c3783d707fc558b8c715b7912a51c426c6a537ce2d68ce",
+    "positions": [
+      "DM",
+      "MC"
+    ],
+    "position_mask": 1152,
+    "minutes": 0,
+    "source": "Own provisional",
+    "criteria": [
+      {
+        "field": "PGR9",
+        "stat": "Progressive Passes per 90 minutes",
+        "minimum": 4
+      },
+      {
+        "field": "Popa",
+        "stat": "Pass Completion Ratio",
+        "minimum": 80
+      },
+      {
+        "field": "POpc",
+        "stat": "Passes completed per 90 minutes",
+        "minimum": 30
+      }
+    ],
+    "league_conditions": [],
+    "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
+  },
+  {
+    "file": "player search filters/Chase DM CM Deep Playmaker - Midseason.fmf",
+    "sha256": "67db34f52c719a1276778d6eac9e05dd9645032c5b1e64b364b1a76ccb27eed8",
+    "positions": [
+      "DM",
+      "MC"
+    ],
+    "position_mask": 1152,
+    "minutes": 1000,
+    "source": "Own provisional",
+    "criteria": [
+      {
+        "field": "POmi",
+        "stat": "Minutes",
+        "minimum": 1000
+      },
+      {
+        "field": "PGR9",
+        "stat": "Progressive Passes per 90 minutes",
+        "minimum": 4
+      },
+      {
+        "field": "Popa",
+        "stat": "Pass Completion Ratio",
+        "minimum": 80
+      },
+      {
+        "field": "POpc",
+        "stat": "Passes completed per 90 minutes",
+        "minimum": 30
+      }
+    ],
+    "league_conditions": [],
+    "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
+  },
+  {
+    "file": "player search filters/Chase DM CM Deep Playmaker - Full Season.fmf",
+    "sha256": "5e8397c09a3a2ee38bb1b79d48282f07ae0ccaa38dc3e8b4b9ba3ea6a362ef7c",
+    "positions": [
+      "DM",
+      "MC"
+    ],
+    "position_mask": 1152,
+    "minutes": 2000,
+    "source": "Own provisional",
+    "criteria": [
+      {
+        "field": "POmi",
+        "stat": "Minutes",
+        "minimum": 2000
+      },
+      {
+        "field": "PGR9",
+        "stat": "Progressive Passes per 90 minutes",
+        "minimum": 4
+      },
+      {
+        "field": "Popa",
+        "stat": "Pass Completion Ratio",
+        "minimum": 80
+      },
+      {
+        "field": "POpc",
+        "stat": "Passes completed per 90 minutes",
+        "minimum": 30
+      }
+    ],
+    "league_conditions": [],
+    "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
+  },
+  {
+    "file": "views/Chase DM CM Deep Playmaker - Search.fmf",
+    "sha256": "a18f3a1f36f604a1e3bd8a8305d6456b1af5e6c9572bb6dcfae5c950cb8524bd",
+    "collection": "PlayerSearchResultsViewCollection",
+    "columns": [
+      "portrait-name",
+      "age",
+      "club",
+      "club-division",
+      "position",
+      "stats-minutes",
+      "apps",
+      "chalkboard-stats-progressive-passes-per90",
+      "chalkboard-stats-pass-completion-ratio",
+      "chalkboard-stats-passes-completed-per90",
+      "chalkboard-stats-open-play-key-passes-per90",
+      "chalkboard-stats-possession-lost-per90",
+      "chalkboard-stats-interceptions-per90",
+      "average-rating",
+      "wage",
+      "transfer-value",
+      "contract-expiry-date",
+      "recommendation-grade-only"
+    ],
+    "native_import_status": "Pending"
+  },
+  {
+    "file": "views/Chase DM CM Deep Playmaker - Shortlist.fmf",
+    "sha256": "07100304be553cab44dcaac9b2132de0cb6cccce20c4954d8408467c255ca9eb",
+    "collection": "PlayerSearchShortlistViewCollection",
+    "columns": [
+      "portrait-name",
+      "age",
+      "club",
+      "club-division",
+      "position",
+      "stats-minutes",
+      "apps",
+      "chalkboard-stats-progressive-passes-per90",
+      "chalkboard-stats-pass-completion-ratio",
+      "chalkboard-stats-passes-completed-per90",
+      "chalkboard-stats-open-play-key-passes-per90",
+      "chalkboard-stats-possession-lost-per90",
+      "chalkboard-stats-interceptions-per90",
+      "average-rating",
+      "wage",
+      "transfer-value",
+      "contract-expiry-date",
+      "recommendation-grade-only"
+    ],
+    "native_import_status": "Pending"
+  },
+  {
+    "file": "player search filters/Chase DM CM Ball Winner - Early.fmf",
+    "sha256": "d9342ddd8dd4912c91804b3c9b4d627c50eb5afad45465515d45038ce57033a9",
+    "positions": [
+      "DM",
+      "MC"
+    ],
+    "position_mask": 1152,
+    "minutes": 0,
+    "source": "Own provisional",
+    "criteria": [
+      {
+        "field": "POW9",
+        "stat": "Possession Won per 90 minutes",
+        "minimum": 4
+      },
+      {
+        "field": "POiG",
+        "stat": "Interceptions per 90 minutes",
+        "minimum": 1
+      },
+      {
+        "field": "Prs9",
+        "stat": "Pressures completed per 90 minutes",
+        "minimum": 2
+      }
+    ],
+    "league_conditions": [],
+    "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
+  },
+  {
+    "file": "player search filters/Chase DM CM Ball Winner - Midseason.fmf",
+    "sha256": "3e8aa5577827e15e61a4c87bf5ffdfe16bf62476e571aea899b9953aa61e6427",
+    "positions": [
+      "DM",
+      "MC"
+    ],
+    "position_mask": 1152,
+    "minutes": 1000,
+    "source": "Own provisional",
+    "criteria": [
+      {
+        "field": "POmi",
+        "stat": "Minutes",
+        "minimum": 1000
+      },
+      {
+        "field": "POW9",
+        "stat": "Possession Won per 90 minutes",
+        "minimum": 4
+      },
+      {
+        "field": "POiG",
+        "stat": "Interceptions per 90 minutes",
+        "minimum": 1
+      },
+      {
+        "field": "Prs9",
+        "stat": "Pressures completed per 90 minutes",
+        "minimum": 2
+      }
+    ],
+    "league_conditions": [],
+    "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
+  },
+  {
+    "file": "player search filters/Chase DM CM Ball Winner - Full Season.fmf",
+    "sha256": "5d602f396d18cede8d9b2541a7432d11691f7d774ffc3ae652ec53b39388f8b7",
+    "positions": [
+      "DM",
+      "MC"
+    ],
+    "position_mask": 1152,
+    "minutes": 2000,
+    "source": "Own provisional",
+    "criteria": [
+      {
+        "field": "POmi",
+        "stat": "Minutes",
+        "minimum": 2000
+      },
+      {
+        "field": "POW9",
+        "stat": "Possession Won per 90 minutes",
+        "minimum": 4
+      },
+      {
+        "field": "POiG",
+        "stat": "Interceptions per 90 minutes",
+        "minimum": 1
+      },
+      {
+        "field": "Prs9",
+        "stat": "Pressures completed per 90 minutes",
+        "minimum": 2
+      }
+    ],
+    "league_conditions": [],
+    "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
+  },
+  {
+    "file": "views/Chase DM CM Ball Winner - Search.fmf",
+    "sha256": "86a60a6fb418bd3a674c32fb0d62c0eb94e2e599e1af8670488e1b64d8133f31",
+    "collection": "PlayerSearchResultsViewCollection",
+    "columns": [
+      "portrait-name",
+      "age",
+      "club",
+      "club-division",
+      "position",
+      "stats-minutes",
+      "apps",
+      "chalkboard-stats-possession-won-per90",
+      "chalkboard-stats-interceptions-per90",
+      "chalkboard-stats-pressures-completed-per90",
+      "chalkboard-stats-tackle-completion-ratio",
+      "chalkboard-stats-pass-completion-ratio",
+      "stats-fouls-made",
+      "average-rating",
+      "wage",
+      "transfer-value",
+      "contract-expiry-date",
+      "recommendation-grade-only"
+    ],
+    "native_import_status": "Pending"
+  },
+  {
+    "file": "views/Chase DM CM Ball Winner - Shortlist.fmf",
+    "sha256": "1981efed222651d880e956a883bc0a895ceb4e57994668bcda233eb51cfacebe",
+    "collection": "PlayerSearchShortlistViewCollection",
+    "columns": [
+      "portrait-name",
+      "age",
+      "club",
+      "club-division",
+      "position",
+      "stats-minutes",
+      "apps",
+      "chalkboard-stats-possession-won-per90",
+      "chalkboard-stats-interceptions-per90",
+      "chalkboard-stats-pressures-completed-per90",
+      "chalkboard-stats-tackle-completion-ratio",
+      "chalkboard-stats-pass-completion-ratio",
+      "stats-fouls-made",
+      "average-rating",
+      "wage",
+      "transfer-value",
+      "contract-expiry-date",
+      "recommendation-grade-only"
+    ],
+    "native_import_status": "Pending"
+  },
+  {
+    "file": "player search filters/Chase CM Box to Box - Early.fmf",
+    "sha256": "0037ea85bbc77ee8011104cb2823000fa0a36f814eb5a3139e89b3a370bb7986",
+    "positions": [
+      "MC"
+    ],
+    "position_mask": 1024,
+    "minutes": 0,
+    "source": "Own provisional",
+    "criteria": [
+      {
+        "field": "POSp",
+        "stat": "High Intensity Sprints per 90 minutes",
+        "minimum": 8
+      },
+      {
+        "field": "POW9",
+        "stat": "Possession Won per 90 minutes",
+        "minimum": 3
+      },
+      {
+        "field": "PGR9",
+        "stat": "Progressive Passes per 90 minutes",
+        "minimum": 2
+      }
+    ],
+    "league_conditions": [],
+    "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
+  },
+  {
+    "file": "player search filters/Chase CM Box to Box - Midseason.fmf",
+    "sha256": "d296c5a237f798a00d2ebd53930480089aea0b095e1a72683d98478d2aa7fdf6",
+    "positions": [
+      "MC"
+    ],
+    "position_mask": 1024,
+    "minutes": 1000,
+    "source": "Own provisional",
+    "criteria": [
+      {
+        "field": "POmi",
+        "stat": "Minutes",
+        "minimum": 1000
+      },
+      {
+        "field": "POSp",
+        "stat": "High Intensity Sprints per 90 minutes",
+        "minimum": 8
+      },
+      {
+        "field": "POW9",
+        "stat": "Possession Won per 90 minutes",
+        "minimum": 3
+      },
+      {
+        "field": "PGR9",
+        "stat": "Progressive Passes per 90 minutes",
+        "minimum": 2
+      }
+    ],
+    "league_conditions": [],
+    "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
+  },
+  {
+    "file": "player search filters/Chase CM Box to Box - Full Season.fmf",
+    "sha256": "484b32aa144d6ca5f6df41e9f3cccf678deea7b84e973dbd6298b240bbf3f9c6",
+    "positions": [
+      "MC"
+    ],
+    "position_mask": 1024,
+    "minutes": 2000,
+    "source": "Own provisional",
+    "criteria": [
+      {
+        "field": "POmi",
+        "stat": "Minutes",
+        "minimum": 2000
+      },
+      {
+        "field": "POSp",
+        "stat": "High Intensity Sprints per 90 minutes",
+        "minimum": 8
+      },
+      {
+        "field": "POW9",
+        "stat": "Possession Won per 90 minutes",
+        "minimum": 3
+      },
+      {
+        "field": "PGR9",
+        "stat": "Progressive Passes per 90 minutes",
+        "minimum": 2
+      }
+    ],
+    "league_conditions": [],
+    "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
+  },
+  {
+    "file": "views/Chase CM Box to Box - Search.fmf",
+    "sha256": "96d31e7ae4962bb01729ba6c4d1dad725ec72cb63c01616e823c2559e3734986",
+    "collection": "PlayerSearchResultsViewCollection",
+    "columns": [
+      "portrait-name",
+      "age",
+      "club",
+      "club-division",
+      "position",
+      "stats-minutes",
+      "apps",
+      "chalkboard-stats-sprints-per90",
+      "chalkboard-stats-possession-won-per90",
+      "chalkboard-stats-progressive-passes-per90",
+      "chalkboard-stats-distance-covered-per90",
+      "expected-goals-per90",
+      "expected-assists-per90",
+      "chalkboard-stats-dribbles-made-per90",
+      "average-rating",
+      "wage",
+      "transfer-value",
+      "contract-expiry-date",
+      "recommendation-grade-only"
+    ],
+    "native_import_status": "Pending"
+  },
+  {
+    "file": "views/Chase CM Box to Box - Shortlist.fmf",
+    "sha256": "c74b69a014a7ed044a3e0e0b74bff9a23561578501a606a4506e27e9b3823159",
+    "collection": "PlayerSearchShortlistViewCollection",
+    "columns": [
+      "portrait-name",
+      "age",
+      "club",
+      "club-division",
+      "position",
+      "stats-minutes",
+      "apps",
+      "chalkboard-stats-sprints-per90",
+      "chalkboard-stats-possession-won-per90",
+      "chalkboard-stats-progressive-passes-per90",
+      "chalkboard-stats-distance-covered-per90",
+      "expected-goals-per90",
+      "expected-assists-per90",
+      "chalkboard-stats-dribbles-made-per90",
+      "average-rating",
+      "wage",
+      "transfer-value",
+      "contract-expiry-date",
+      "recommendation-grade-only"
+    ],
+    "native_import_status": "Pending"
+  },
+  {
+    "file": "player search filters/Chase CAM Attacking - Early.fmf",
+    "sha256": "6f306ec451ea9cf2abea1ae672c197aa8c83bb2fd5e5f975dc4ccff13051afb0",
+    "positions": [
+      "AMC"
+    ],
+    "position_mask": 8192,
+    "minutes": 0,
+    "source": "Earlier unlabeled central midfield screenshot; AMC selection is ours",
+    "criteria": [
+      {
+        "field": "PxG9",
+        "stat": "Expected Goals per 90 minutes",
+        "minimum": 0.2
+      },
+      {
+        "field": "PxA9",
+        "stat": "Expected Assists per 90 minutes",
+        "minimum": 0.1
+      },
+      {
+        "field": "Pop9",
+        "stat": "Open Play Key Passes per 90 minutes",
+        "minimum": 1.5
+      },
+      {
+        "field": "Podr",
+        "stat": "Dribbles Made per 90 minutes",
+        "minimum": 2
+      },
+      {
+        "field": "POSp",
+        "stat": "High Intensity Sprints per 90 minutes",
+        "minimum": 8
+      }
+    ],
+    "league_conditions": [],
+    "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
+  },
+  {
+    "file": "player search filters/Chase CAM Attacking - Midseason.fmf",
+    "sha256": "5686f1a3552031b9e6b2469c4d7d29528ccd3e7ab0d8ff4413b31c0e46595244",
+    "positions": [
+      "AMC"
+    ],
+    "position_mask": 8192,
+    "minutes": 1000,
+    "source": "Earlier unlabeled central midfield screenshot; AMC selection is ours",
+    "criteria": [
+      {
+        "field": "POmi",
+        "stat": "Minutes",
+        "minimum": 1000
+      },
+      {
+        "field": "PxG9",
+        "stat": "Expected Goals per 90 minutes",
+        "minimum": 0.2
+      },
+      {
+        "field": "PxA9",
+        "stat": "Expected Assists per 90 minutes",
+        "minimum": 0.1
+      },
+      {
+        "field": "Pop9",
+        "stat": "Open Play Key Passes per 90 minutes",
+        "minimum": 1.5
+      },
+      {
+        "field": "Podr",
+        "stat": "Dribbles Made per 90 minutes",
+        "minimum": 2
+      },
+      {
+        "field": "POSp",
+        "stat": "High Intensity Sprints per 90 minutes",
+        "minimum": 8
+      }
+    ],
+    "league_conditions": [],
+    "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
+  },
+  {
+    "file": "player search filters/Chase CAM Attacking - Full Season.fmf",
+    "sha256": "0ea47211a0e00c5e1eba51a805f7da680c72968a69e9147695cd4cfc8cb81277",
+    "positions": [
+      "AMC"
+    ],
+    "position_mask": 8192,
+    "minutes": 2000,
+    "source": "Earlier unlabeled central midfield screenshot; AMC selection is ours",
+    "criteria": [
+      {
+        "field": "POmi",
+        "stat": "Minutes",
+        "minimum": 2000
+      },
+      {
+        "field": "PxG9",
+        "stat": "Expected Goals per 90 minutes",
+        "minimum": 0.2
+      },
+      {
+        "field": "PxA9",
+        "stat": "Expected Assists per 90 minutes",
+        "minimum": 0.1
+      },
+      {
+        "field": "Pop9",
+        "stat": "Open Play Key Passes per 90 minutes",
+        "minimum": 1.5
+      },
+      {
+        "field": "Podr",
+        "stat": "Dribbles Made per 90 minutes",
+        "minimum": 2
+      },
+      {
+        "field": "POSp",
+        "stat": "High Intensity Sprints per 90 minutes",
+        "minimum": 8
+      }
+    ],
+    "league_conditions": [],
+    "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
+  },
+  {
+    "file": "views/Chase CAM Attacking - Search.fmf",
+    "sha256": "e2f4600ef0e443d8ecb8e10ee481108c6910ea1e4610457bf64ae59cf4c8acf9",
+    "collection": "PlayerSearchResultsViewCollection",
+    "columns": [
+      "portrait-name",
+      "age",
+      "club",
+      "club-division",
+      "position",
+      "stats-minutes",
+      "apps",
+      "expected-goals-per90",
+      "expected-assists-per90",
+      "chalkboard-stats-open-play-key-passes-per90",
+      "chalkboard-stats-dribbles-made-per90",
+      "chalkboard-stats-sprints-per90",
+      "chalkboard-stats-shots-on-target-ratio",
+      "chalkboard-stats-pass-completion-ratio",
+      "chalkboard-stats-possession-lost-per90",
+      "average-rating",
+      "wage",
+      "transfer-value",
+      "contract-expiry-date",
+      "recommendation-grade-only"
+    ],
+    "native_import_status": "Pending"
+  },
+  {
+    "file": "views/Chase CAM Attacking - Shortlist.fmf",
+    "sha256": "18ffe8f5b5bc59bbc154fb2c91d0ca84fd1f7e11947359cd8b84017a18e4a45f",
+    "collection": "PlayerSearchShortlistViewCollection",
+    "columns": [
+      "portrait-name",
+      "age",
+      "club",
+      "club-division",
+      "position",
+      "stats-minutes",
+      "apps",
+      "expected-goals-per90",
+      "expected-assists-per90",
+      "chalkboard-stats-open-play-key-passes-per90",
+      "chalkboard-stats-dribbles-made-per90",
+      "chalkboard-stats-sprints-per90",
+      "chalkboard-stats-shots-on-target-ratio",
+      "chalkboard-stats-pass-completion-ratio",
+      "chalkboard-stats-possession-lost-per90",
+      "average-rating",
+      "wage",
+      "transfer-value",
+      "contract-expiry-date",
+      "recommendation-grade-only"
+    ],
+    "native_import_status": "Pending"
+  },
+  {
+    "file": "player search filters/Chase CAM Free Role - Early.fmf",
+    "sha256": "ac5241698012c7d0861ab10497046a928ba9c242252d41be59aa04cbadfdde3f",
+    "positions": [
+      "AMC"
+    ],
+    "position_mask": 8192,
+    "minutes": 0,
+    "source": "User CAM FR guide screenshot",
+    "criteria": [
+      {
+        "field": "PxG9",
+        "stat": "Expected Goals per 90 minutes",
+        "minimum": 0.2
+      },
+      {
+        "field": "PxA9",
+        "stat": "Expected Assists per 90 minutes",
+        "minimum": 0.1
+      },
+      {
+        "field": "Pop9",
+        "stat": "Open Play Key Passes per 90 minutes",
+        "minimum": 1.5
+      },
+      {
+        "field": "Podr",
+        "stat": "Dribbles Made per 90 minutes",
+        "minimum": 2
+      },
+      {
+        "field": "Post",
+        "stat": "Shots On Target Ratio",
+        "minimum": 30
+      },
+      {
+        "field": "POSp",
+        "stat": "High Intensity Sprints per 90 minutes",
+        "minimum": 8
+      }
+    ],
+    "league_conditions": [],
+    "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
+  },
+  {
+    "file": "player search filters/Chase CAM Free Role - Midseason.fmf",
+    "sha256": "207d4b1e7a1510c0842ee9953e3d317b2b722b30d744c47b2af7d49010bb5064",
+    "positions": [
+      "AMC"
+    ],
+    "position_mask": 8192,
+    "minutes": 1000,
+    "source": "User CAM FR guide screenshot",
+    "criteria": [
+      {
+        "field": "POmi",
+        "stat": "Minutes",
+        "minimum": 1000
+      },
+      {
+        "field": "PxG9",
+        "stat": "Expected Goals per 90 minutes",
+        "minimum": 0.2
+      },
+      {
+        "field": "PxA9",
+        "stat": "Expected Assists per 90 minutes",
+        "minimum": 0.1
+      },
+      {
+        "field": "Pop9",
+        "stat": "Open Play Key Passes per 90 minutes",
+        "minimum": 1.5
+      },
+      {
+        "field": "Podr",
+        "stat": "Dribbles Made per 90 minutes",
+        "minimum": 2
+      },
+      {
+        "field": "Post",
+        "stat": "Shots On Target Ratio",
+        "minimum": 30
+      },
+      {
+        "field": "POSp",
+        "stat": "High Intensity Sprints per 90 minutes",
+        "minimum": 8
+      }
+    ],
+    "league_conditions": [],
+    "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
+  },
+  {
+    "file": "player search filters/Chase CAM Free Role - Full Season.fmf",
+    "sha256": "a3613fa6085d02f556e0b3fd78e79e38b711512f6b79ebf73d85082fb05847cf",
+    "positions": [
+      "AMC"
+    ],
+    "position_mask": 8192,
+    "minutes": 2000,
+    "source": "User CAM FR guide screenshot",
+    "criteria": [
+      {
+        "field": "POmi",
+        "stat": "Minutes",
+        "minimum": 2000
+      },
+      {
+        "field": "PxG9",
+        "stat": "Expected Goals per 90 minutes",
+        "minimum": 0.2
+      },
+      {
+        "field": "PxA9",
+        "stat": "Expected Assists per 90 minutes",
+        "minimum": 0.1
+      },
+      {
+        "field": "Pop9",
+        "stat": "Open Play Key Passes per 90 minutes",
+        "minimum": 1.5
+      },
+      {
+        "field": "Podr",
+        "stat": "Dribbles Made per 90 minutes",
+        "minimum": 2
+      },
+      {
+        "field": "Post",
+        "stat": "Shots On Target Ratio",
+        "minimum": 30
+      },
+      {
+        "field": "POSp",
+        "stat": "High Intensity Sprints per 90 minutes",
+        "minimum": 8
+      }
+    ],
+    "league_conditions": [],
+    "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
+  },
+  {
+    "file": "views/Chase CAM Free Role - Search.fmf",
+    "sha256": "984b8d430ec42d94a207ea965cc20e30a7f473388d2263a8545301462d1a71af",
+    "collection": "PlayerSearchResultsViewCollection",
+    "columns": [
+      "portrait-name",
+      "age",
+      "club",
+      "club-division",
+      "position",
+      "stats-minutes",
+      "apps",
+      "expected-goals-per90",
+      "expected-assists-per90",
+      "chalkboard-stats-open-play-key-passes-per90",
+      "chalkboard-stats-dribbles-made-per90",
+      "chalkboard-stats-shots-on-target-ratio",
+      "chalkboard-stats-sprints-per90",
+      "chalkboard-stats-pass-completion-ratio",
+      "chalkboard-stats-possession-lost-per90",
+      "average-rating",
+      "wage",
+      "transfer-value",
+      "contract-expiry-date",
+      "recommendation-grade-only"
+    ],
+    "native_import_status": "Pending"
+  },
+  {
+    "file": "views/Chase CAM Free Role - Shortlist.fmf",
+    "sha256": "1615c57cf00e0fa9d47fd1bd372415b4a1f24039c545bff0d9b2fa34ace9e3f7",
+    "collection": "PlayerSearchShortlistViewCollection",
+    "columns": [
+      "portrait-name",
+      "age",
+      "club",
+      "club-division",
+      "position",
+      "stats-minutes",
+      "apps",
+      "expected-goals-per90",
+      "expected-assists-per90",
+      "chalkboard-stats-open-play-key-passes-per90",
+      "chalkboard-stats-dribbles-made-per90",
+      "chalkboard-stats-shots-on-target-ratio",
+      "chalkboard-stats-sprints-per90",
+      "chalkboard-stats-pass-completion-ratio",
+      "chalkboard-stats-possession-lost-per90",
+      "average-rating",
+      "wage",
+      "transfer-value",
+      "contract-expiry-date",
+      "recommendation-grade-only"
+    ],
+    "native_import_status": "Pending"
+  },
+  {
+    "file": "player search filters/Chase W Touchline - Early.fmf",
+    "sha256": "d9af949134647f96345dbad02bf44412027fc2642f22c0ed6442f223543d7bae",
+    "positions": [
+      "ML",
+      "MR",
+      "AML",
+      "AMR"
+    ],
+    "position_mask": 6912,
+    "minutes": 0,
+    "source": "Own provisional; broader than historical FM26 winger floors",
+    "criteria": [
+      {
+        "field": "Podr",
+        "stat": "Dribbles Made per 90 minutes",
+        "minimum": 2
+      },
+      {
+        "field": "PxA9",
+        "stat": "Expected Assists per 90 minutes",
+        "minimum": 0.1
+      },
+      {
+        "field": "POP9",
+        "stat": "Open Play Crosses attempted per 90 minutes",
+        "minimum": 1
+      }
+    ],
+    "league_conditions": [],
+    "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
+  },
+  {
+    "file": "player search filters/Chase W Touchline - Midseason.fmf",
+    "sha256": "a4cacb6e06a73415330244f3d171c5e8edf685a9008bf2ca37bd2df540060832",
+    "positions": [
+      "ML",
+      "MR",
+      "AML",
+      "AMR"
+    ],
+    "position_mask": 6912,
+    "minutes": 1000,
+    "source": "Own provisional; broader than historical FM26 winger floors",
+    "criteria": [
+      {
+        "field": "POmi",
+        "stat": "Minutes",
+        "minimum": 1000
+      },
+      {
+        "field": "Podr",
+        "stat": "Dribbles Made per 90 minutes",
+        "minimum": 2
+      },
+      {
+        "field": "PxA9",
+        "stat": "Expected Assists per 90 minutes",
+        "minimum": 0.1
+      },
+      {
+        "field": "POP9",
+        "stat": "Open Play Crosses attempted per 90 minutes",
+        "minimum": 1
+      }
+    ],
+    "league_conditions": [],
+    "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
+  },
+  {
+    "file": "player search filters/Chase W Touchline - Full Season.fmf",
+    "sha256": "b4eb4e27be7723d635cb710598b9b7f74001e76c9098eb4ba6764f94dd63bf63",
+    "positions": [
+      "ML",
+      "MR",
+      "AML",
+      "AMR"
+    ],
+    "position_mask": 6912,
+    "minutes": 2000,
+    "source": "Own provisional; broader than historical FM26 winger floors",
+    "criteria": [
+      {
+        "field": "POmi",
+        "stat": "Minutes",
+        "minimum": 2000
+      },
+      {
+        "field": "Podr",
+        "stat": "Dribbles Made per 90 minutes",
+        "minimum": 2
+      },
+      {
+        "field": "PxA9",
+        "stat": "Expected Assists per 90 minutes",
+        "minimum": 0.1
+      },
+      {
+        "field": "POP9",
+        "stat": "Open Play Crosses attempted per 90 minutes",
+        "minimum": 1
+      }
+    ],
+    "league_conditions": [],
+    "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
+  },
+  {
+    "file": "views/Chase W Touchline - Search.fmf",
+    "sha256": "40091e14b9d345d184a9cfa050f480218698fa2263bc0f07a5157b101cf2dd69",
+    "collection": "PlayerSearchResultsViewCollection",
+    "columns": [
+      "portrait-name",
+      "age",
+      "club",
+      "club-division",
+      "position",
+      "stats-minutes",
+      "apps",
+      "chalkboard-stats-dribbles-made-per90",
+      "expected-assists-per90",
+      "chalkboard-stats-open-play-crosses-attempted-per90",
+      "chalkboard-stats-open-play-key-passes-per90",
+      "chalkboard-stats-open-play-crosses-completion-ratio",
+      "chalkboard-stats-sprints-per90",
+      "average-rating",
+      "wage",
+      "transfer-value",
+      "contract-expiry-date",
+      "recommendation-grade-only"
+    ],
+    "native_import_status": "Pending"
+  },
+  {
+    "file": "views/Chase W Touchline - Shortlist.fmf",
+    "sha256": "c2cf22902e1f667646219d366ac43914b7492fa44332fcbf47b595672615213f",
+    "collection": "PlayerSearchShortlistViewCollection",
+    "columns": [
+      "portrait-name",
+      "age",
+      "club",
+      "club-division",
+      "position",
+      "stats-minutes",
+      "apps",
+      "chalkboard-stats-dribbles-made-per90",
+      "expected-assists-per90",
+      "chalkboard-stats-open-play-crosses-attempted-per90",
+      "chalkboard-stats-open-play-key-passes-per90",
+      "chalkboard-stats-open-play-crosses-completion-ratio",
+      "chalkboard-stats-sprints-per90",
+      "average-rating",
+      "wage",
+      "transfer-value",
+      "contract-expiry-date",
+      "recommendation-grade-only"
+    ],
+    "native_import_status": "Pending"
+  },
+  {
+    "file": "player search filters/Chase W Inside Forward - Early.fmf",
+    "sha256": "d0eed3ec35bd2c3db7cb3c82d640e5544b40be6b584653efa13170ea95cd2922",
+    "positions": [
+      "AML",
+      "AMR"
+    ],
+    "position_mask": 6144,
+    "minutes": 0,
+    "source": "Own provisional",
+    "criteria": [
+      {
+        "field": "PNx9",
+        "stat": "Non Penalty Expected Goals per 90 minutes",
+        "minimum": 0.2
+      },
+      {
+        "field": "POsg",
+        "stat": "Shots per 90 minutes",
+        "minimum": 2
+      },
+      {
+        "field": "Podr",
+        "stat": "Dribbles Made per 90 minutes",
+        "minimum": 1
+      }
+    ],
+    "league_conditions": [],
+    "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
+  },
+  {
+    "file": "player search filters/Chase W Inside Forward - Midseason.fmf",
+    "sha256": "95590ea7c9e8bbc7e567bf9e07ed9bc5d02d423a4a03e48ffa9a42b3178d0e80",
+    "positions": [
+      "AML",
+      "AMR"
+    ],
+    "position_mask": 6144,
+    "minutes": 1000,
+    "source": "Own provisional",
+    "criteria": [
+      {
+        "field": "POmi",
+        "stat": "Minutes",
+        "minimum": 1000
+      },
+      {
+        "field": "PNx9",
+        "stat": "Non Penalty Expected Goals per 90 minutes",
+        "minimum": 0.2
+      },
+      {
+        "field": "POsg",
+        "stat": "Shots per 90 minutes",
+        "minimum": 2
+      },
+      {
+        "field": "Podr",
+        "stat": "Dribbles Made per 90 minutes",
+        "minimum": 1
+      }
+    ],
+    "league_conditions": [],
+    "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
+  },
+  {
+    "file": "player search filters/Chase W Inside Forward - Full Season.fmf",
+    "sha256": "89ca160515dfb6e8359c223ffc6ffde529a5807cde01ac9e2585fc89c422a9a6",
+    "positions": [
+      "AML",
+      "AMR"
+    ],
+    "position_mask": 6144,
+    "minutes": 2000,
+    "source": "Own provisional",
+    "criteria": [
+      {
+        "field": "POmi",
+        "stat": "Minutes",
+        "minimum": 2000
+      },
+      {
+        "field": "PNx9",
+        "stat": "Non Penalty Expected Goals per 90 minutes",
+        "minimum": 0.2
+      },
+      {
+        "field": "POsg",
+        "stat": "Shots per 90 minutes",
+        "minimum": 2
+      },
+      {
+        "field": "Podr",
+        "stat": "Dribbles Made per 90 minutes",
+        "minimum": 1
+      }
+    ],
+    "league_conditions": [],
+    "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
+  },
+  {
+    "file": "views/Chase W Inside Forward - Search.fmf",
+    "sha256": "611453687217b7bbf2e1366debb41b0f01bc559bc8f7fbdb90e4a70ec33fd75e",
+    "collection": "PlayerSearchResultsViewCollection",
+    "columns": [
+      "portrait-name",
+      "age",
+      "club",
+      "club-division",
+      "position",
+      "stats-minutes",
+      "apps",
+      "non-penalty-expected-goals-per90",
+      "chalkboard-stats-shots-per90",
+      "chalkboard-stats-dribbles-made-per90",
+      "chalkboard-stats-shots-on-target-ratio",
+      "expected-assists-per90",
+      "chalkboard-stats-sprints-per90",
+      "average-rating",
+      "wage",
+      "transfer-value",
+      "contract-expiry-date",
+      "recommendation-grade-only"
+    ],
+    "native_import_status": "Pending"
+  },
+  {
+    "file": "views/Chase W Inside Forward - Shortlist.fmf",
+    "sha256": "0d1931da2dd73e63608fddd3efb26e0203b194fcfc6ab865405f77c4a883093c",
+    "collection": "PlayerSearchShortlistViewCollection",
+    "columns": [
+      "portrait-name",
+      "age",
+      "club",
+      "club-division",
+      "position",
+      "stats-minutes",
+      "apps",
+      "non-penalty-expected-goals-per90",
+      "chalkboard-stats-shots-per90",
+      "chalkboard-stats-dribbles-made-per90",
+      "chalkboard-stats-shots-on-target-ratio",
+      "expected-assists-per90",
+      "chalkboard-stats-sprints-per90",
+      "average-rating",
+      "wage",
+      "transfer-value",
+      "contract-expiry-date",
+      "recommendation-grade-only"
+    ],
+    "native_import_status": "Pending"
+  },
+  {
+    "file": "player search filters/Chase ST Goalscorer - Early.fmf",
+    "sha256": "edb5f4a9cf2aaaa2faeecfe6b8baf4da108aa70c049d90f6a9561fcc7da32169",
+    "positions": [
+      "ST"
+    ],
+    "position_mask": 16384,
+    "minutes": 0,
+    "source": "Own provisional; xG-focused rather than historical conversion screen",
+    "criteria": [
+      {
+        "field": "PNx9",
+        "stat": "Non Penalty Expected Goals per 90 minutes",
+        "minimum": 0.3
+      },
+      {
+        "field": "POsg",
+        "stat": "Shots per 90 minutes",
+        "minimum": 2
+      },
+      {
+        "field": "POgg",
+        "stat": "Goals per 90 minutes",
+        "minimum": 0.3
+      }
+    ],
+    "league_conditions": [],
+    "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
+  },
+  {
+    "file": "player search filters/Chase ST Goalscorer - Midseason.fmf",
+    "sha256": "c792322ae17beaaaccf114ac4217feda0db162f63528f1f42b65e985c68b8990",
+    "positions": [
+      "ST"
+    ],
+    "position_mask": 16384,
+    "minutes": 1000,
+    "source": "Own provisional; xG-focused rather than historical conversion screen",
+    "criteria": [
+      {
+        "field": "POmi",
+        "stat": "Minutes",
+        "minimum": 1000
+      },
+      {
+        "field": "PNx9",
+        "stat": "Non Penalty Expected Goals per 90 minutes",
+        "minimum": 0.3
+      },
+      {
+        "field": "POsg",
+        "stat": "Shots per 90 minutes",
+        "minimum": 2
+      },
+      {
+        "field": "POgg",
+        "stat": "Goals per 90 minutes",
+        "minimum": 0.3
+      }
+    ],
+    "league_conditions": [],
+    "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
+  },
+  {
+    "file": "player search filters/Chase ST Goalscorer - Full Season.fmf",
+    "sha256": "2c22eac894056fac5a9044c8a0e5f9febf7b2c8996435df79f12b08d2bc75137",
+    "positions": [
+      "ST"
+    ],
+    "position_mask": 16384,
+    "minutes": 2000,
+    "source": "Own provisional; xG-focused rather than historical conversion screen",
+    "criteria": [
+      {
+        "field": "POmi",
+        "stat": "Minutes",
+        "minimum": 2000
+      },
+      {
+        "field": "PNx9",
+        "stat": "Non Penalty Expected Goals per 90 minutes",
+        "minimum": 0.3
+      },
+      {
+        "field": "POsg",
+        "stat": "Shots per 90 minutes",
+        "minimum": 2
+      },
+      {
+        "field": "POgg",
+        "stat": "Goals per 90 minutes",
+        "minimum": 0.3
+      }
+    ],
+    "league_conditions": [],
+    "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
+  },
+  {
+    "file": "views/Chase ST Goalscorer - Search.fmf",
+    "sha256": "ea4cb431ddf5bc6a0ee358ab433b4ec0db0e0eb86521b53a4246ee337009f63b",
+    "collection": "PlayerSearchResultsViewCollection",
+    "columns": [
+      "portrait-name",
+      "age",
+      "club",
+      "club-division",
+      "position",
+      "stats-minutes",
+      "apps",
+      "non-penalty-expected-goals-per90",
+      "chalkboard-stats-shots-per90",
+      "stats-goals-per90",
+      "chalkboard-stats-shots-on-target-ratio",
+      "chalkboard-stats-converstion-rate",
+      "expected-assists-per90",
+      "average-rating",
+      "wage",
+      "transfer-value",
+      "contract-expiry-date",
+      "recommendation-grade-only"
+    ],
+    "native_import_status": "Pending"
+  },
+  {
+    "file": "views/Chase ST Goalscorer - Shortlist.fmf",
+    "sha256": "9e4d055936f9a1995667b4866dc60c718a67687f5e3fcf8b19e3ed80023c1e24",
+    "collection": "PlayerSearchShortlistViewCollection",
+    "columns": [
+      "portrait-name",
+      "age",
+      "club",
+      "club-division",
+      "position",
+      "stats-minutes",
+      "apps",
+      "non-penalty-expected-goals-per90",
+      "chalkboard-stats-shots-per90",
+      "stats-goals-per90",
+      "chalkboard-stats-shots-on-target-ratio",
+      "chalkboard-stats-converstion-rate",
+      "expected-assists-per90",
+      "average-rating",
+      "wage",
+      "transfer-value",
+      "contract-expiry-date",
+      "recommendation-grade-only"
+    ],
+    "native_import_status": "Pending"
+  },
+  {
+    "file": "player search filters/Chase ST Target - Early.fmf",
+    "sha256": "2cf1103ac1849e6e29f104df99807d6b3c40d1acf91ea22ac8d8e017ee387edc",
+    "positions": [
+      "ST"
+    ],
+    "position_mask": 16384,
+    "minutes": 0,
+    "source": "Own provisional",
+    "criteria": [
+      {
+        "field": "POHg",
+        "stat": "Headers Won per 90 minutes",
+        "minimum": 3
+      },
+      {
+        "field": "POhr",
+        "stat": "Headers Won Ratio",
+        "minimum": 50
+      },
+      {
+        "field": "PNx9",
+        "stat": "Non Penalty Expected Goals per 90 minutes",
+        "minimum": 0.2
+      }
+    ],
+    "league_conditions": [],
+    "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
+  },
+  {
+    "file": "player search filters/Chase ST Target - Midseason.fmf",
+    "sha256": "7df359d23d146550c65a12f950efb8644cce5ebe64c9ef154574a80a9a7f9bcd",
+    "positions": [
+      "ST"
+    ],
+    "position_mask": 16384,
+    "minutes": 1000,
+    "source": "Own provisional",
+    "criteria": [
+      {
+        "field": "POmi",
+        "stat": "Minutes",
+        "minimum": 1000
+      },
+      {
+        "field": "POHg",
+        "stat": "Headers Won per 90 minutes",
+        "minimum": 3
+      },
+      {
+        "field": "POhr",
+        "stat": "Headers Won Ratio",
+        "minimum": 50
+      },
+      {
+        "field": "PNx9",
+        "stat": "Non Penalty Expected Goals per 90 minutes",
+        "minimum": 0.2
+      }
+    ],
+    "league_conditions": [],
+    "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
+  },
+  {
+    "file": "player search filters/Chase ST Target - Full Season.fmf",
+    "sha256": "e94881c4db368667597d73cd8be36172450664e861f8ff874b8fc030808b1500",
+    "positions": [
+      "ST"
+    ],
+    "position_mask": 16384,
+    "minutes": 2000,
+    "source": "Own provisional",
+    "criteria": [
+      {
+        "field": "POmi",
+        "stat": "Minutes",
+        "minimum": 2000
+      },
+      {
+        "field": "POHg",
+        "stat": "Headers Won per 90 minutes",
+        "minimum": 3
+      },
+      {
+        "field": "POhr",
+        "stat": "Headers Won Ratio",
+        "minimum": 50
+      },
+      {
+        "field": "PNx9",
+        "stat": "Non Penalty Expected Goals per 90 minutes",
+        "minimum": 0.2
+      }
+    ],
+    "league_conditions": [],
+    "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
+  },
+  {
+    "file": "views/Chase ST Target - Search.fmf",
+    "sha256": "1aa63b808348c278057b6aced517f7cbc375a1539230d02ff93008c9d89c2a51",
+    "collection": "PlayerSearchResultsViewCollection",
+    "columns": [
+      "portrait-name",
+      "age",
+      "club",
+      "club-division",
+      "position",
+      "stats-minutes",
+      "apps",
+      "chalkboard-stats-headers-won-per90",
+      "chalkboard-stats-headers-won-ratio",
+      "non-penalty-expected-goals-per90",
+      "stats-goals-per90",
+      "chalkboard-stats-open-play-key-passes-per90",
+      "chalkboard-stats-pass-completion-ratio",
+      "average-rating",
+      "wage",
+      "transfer-value",
+      "contract-expiry-date",
+      "recommendation-grade-only"
+    ],
+    "native_import_status": "Pending"
+  },
+  {
+    "file": "views/Chase ST Target - Shortlist.fmf",
+    "sha256": "b38fb49e10380443c30ee4df6d4c5078d3024adfdfc2cb0562c091daad7b9d47",
+    "collection": "PlayerSearchShortlistViewCollection",
+    "columns": [
+      "portrait-name",
+      "age",
+      "club",
+      "club-division",
+      "position",
+      "stats-minutes",
+      "apps",
+      "chalkboard-stats-headers-won-per90",
+      "chalkboard-stats-headers-won-ratio",
+      "non-penalty-expected-goals-per90",
+      "stats-goals-per90",
+      "chalkboard-stats-open-play-key-passes-per90",
+      "chalkboard-stats-pass-completion-ratio",
+      "average-rating",
+      "wage",
+      "transfer-value",
+      "contract-expiry-date",
+      "recommendation-grade-only"
+    ],
+    "native_import_status": "Pending"
+  },
+  {
+    "file": "player search filters/Chase ST Linking - Early.fmf",
+    "sha256": "d706905e1209880e6e985e9b3a037a894f83b2c5838da033d59f39b8b0c3aca6",
+    "positions": [
+      "ST"
+    ],
+    "position_mask": 16384,
+    "minutes": 0,
+    "source": "Own provisional",
+    "criteria": [
+      {
+        "field": "PxA9",
+        "stat": "Expected Assists per 90 minutes",
+        "minimum": 0.1
+      },
+      {
+        "field": "Pop9",
+        "stat": "Open Play Key Passes per 90 minutes",
+        "minimum": 0.75
+      },
+      {
+        "field": "PNx9",
+        "stat": "Non Penalty Expected Goals per 90 minutes",
+        "minimum": 0.2
+      }
+    ],
+    "league_conditions": [],
+    "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
+  },
+  {
+    "file": "player search filters/Chase ST Linking - Midseason.fmf",
+    "sha256": "1f7ff0f09bc92c3bcb3db5a1e959c208fdfc4ea6065e2c47ecdc6fd85f9d8f36",
+    "positions": [
+      "ST"
+    ],
+    "position_mask": 16384,
+    "minutes": 1000,
+    "source": "Own provisional",
+    "criteria": [
+      {
+        "field": "POmi",
+        "stat": "Minutes",
+        "minimum": 1000
+      },
+      {
+        "field": "PxA9",
+        "stat": "Expected Assists per 90 minutes",
+        "minimum": 0.1
+      },
+      {
+        "field": "Pop9",
+        "stat": "Open Play Key Passes per 90 minutes",
+        "minimum": 0.75
+      },
+      {
+        "field": "PNx9",
+        "stat": "Non Penalty Expected Goals per 90 minutes",
+        "minimum": 0.2
+      }
+    ],
+    "league_conditions": [],
+    "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
+  },
+  {
+    "file": "player search filters/Chase ST Linking - Full Season.fmf",
+    "sha256": "ce4b63b89ee3b4237fa2869d7ac5fd02f668072e240dc39f7ee27d4c70b8c3cb",
+    "positions": [
+      "ST"
+    ],
+    "position_mask": 16384,
+    "minutes": 2000,
+    "source": "Own provisional",
+    "criteria": [
+      {
+        "field": "POmi",
+        "stat": "Minutes",
+        "minimum": 2000
+      },
+      {
+        "field": "PxA9",
+        "stat": "Expected Assists per 90 minutes",
+        "minimum": 0.1
+      },
+      {
+        "field": "Pop9",
+        "stat": "Open Play Key Passes per 90 minutes",
+        "minimum": 0.75
+      },
+      {
+        "field": "PNx9",
+        "stat": "Non Penalty Expected Goals per 90 minutes",
+        "minimum": 0.2
+      }
+    ],
+    "league_conditions": [],
+    "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
+  },
+  {
+    "file": "views/Chase ST Linking - Search.fmf",
+    "sha256": "ec04a86950558323f9f8589cbb307542891e303cbae3f00a61a0ccbb7540fb84",
+    "collection": "PlayerSearchResultsViewCollection",
+    "columns": [
+      "portrait-name",
+      "age",
+      "club",
+      "club-division",
+      "position",
+      "stats-minutes",
+      "apps",
+      "expected-assists-per90",
+      "chalkboard-stats-open-play-key-passes-per90",
+      "non-penalty-expected-goals-per90",
+      "stats-goals-per90",
+      "chalkboard-stats-pass-completion-ratio",
+      "chalkboard-stats-possession-lost-per90",
+      "average-rating",
+      "wage",
+      "transfer-value",
+      "contract-expiry-date",
+      "recommendation-grade-only"
+    ],
+    "native_import_status": "Pending"
+  },
+  {
+    "file": "views/Chase ST Linking - Shortlist.fmf",
+    "sha256": "37e7053d81a99baafd03254fc1849fe21e7816744119058146be526cef8f84d6",
+    "collection": "PlayerSearchShortlistViewCollection",
+    "columns": [
+      "portrait-name",
+      "age",
+      "club",
+      "club-division",
+      "position",
+      "stats-minutes",
+      "apps",
+      "expected-assists-per90",
+      "chalkboard-stats-open-play-key-passes-per90",
+      "non-penalty-expected-goals-per90",
+      "stats-goals-per90",
+      "chalkboard-stats-pass-completion-ratio",
+      "chalkboard-stats-possession-lost-per90",
+      "average-rating",
+      "wage",
+      "transfer-value",
+      "contract-expiry-date",
+      "recommendation-grade-only"
+    ],
+    "native_import_status": "Pending"
+  },
+  {
+    "file": "player search filters/Chase ST Pressing - Early.fmf",
+    "sha256": "d23d555c1e1ca9ed02c2f08c4aa5b303a7690db63f31a9375c51676629049367",
+    "positions": [
+      "ST"
+    ],
+    "position_mask": 16384,
+    "minutes": 0,
+    "source": "Own provisional",
+    "criteria": [
+      {
+        "field": "Prs9",
+        "stat": "Pressures completed per 90 minutes",
+        "minimum": 2
+      },
+      {
+        "field": "POW9",
+        "stat": "Possession Won per 90 minutes",
+        "minimum": 1.5
+      },
+      {
+        "field": "PNx9",
+        "stat": "Non Penalty Expected Goals per 90 minutes",
+        "minimum": 0.2
+      }
+    ],
+    "league_conditions": [],
+    "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
+  },
+  {
+    "file": "player search filters/Chase ST Pressing - Midseason.fmf",
+    "sha256": "d5119e2e55ebdd5966a9a6054b87a8b234227fd5831cedc9d9ac0b2d36b5e057",
+    "positions": [
+      "ST"
+    ],
+    "position_mask": 16384,
+    "minutes": 1000,
+    "source": "Own provisional",
+    "criteria": [
+      {
+        "field": "POmi",
+        "stat": "Minutes",
+        "minimum": 1000
+      },
+      {
+        "field": "Prs9",
+        "stat": "Pressures completed per 90 minutes",
+        "minimum": 2
+      },
+      {
+        "field": "POW9",
+        "stat": "Possession Won per 90 minutes",
+        "minimum": 1.5
+      },
+      {
+        "field": "PNx9",
+        "stat": "Non Penalty Expected Goals per 90 minutes",
+        "minimum": 0.2
+      }
+    ],
+    "league_conditions": [],
+    "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
+  },
+  {
+    "file": "player search filters/Chase ST Pressing - Full Season.fmf",
+    "sha256": "c503cdff61102fc37c6c74da04650d99065cc36bf71c55c82a8a971fa95124da",
+    "positions": [
+      "ST"
+    ],
+    "position_mask": 16384,
+    "minutes": 2000,
+    "source": "Own provisional",
+    "criteria": [
+      {
+        "field": "POmi",
+        "stat": "Minutes",
+        "minimum": 2000
+      },
+      {
+        "field": "Prs9",
+        "stat": "Pressures completed per 90 minutes",
+        "minimum": 2
+      },
+      {
+        "field": "POW9",
+        "stat": "Possession Won per 90 minutes",
+        "minimum": 1.5
+      },
+      {
+        "field": "PNx9",
+        "stat": "Non Penalty Expected Goals per 90 minutes",
+        "minimum": 0.2
+      }
+    ],
+    "league_conditions": [],
+    "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
+  },
+  {
+    "file": "views/Chase ST Pressing - Search.fmf",
+    "sha256": "b0341fab6109736b9853d17aa4b4de711315deb19cdcc8970157b2245583141f",
+    "collection": "PlayerSearchResultsViewCollection",
+    "columns": [
+      "portrait-name",
+      "age",
+      "club",
+      "club-division",
+      "position",
+      "stats-minutes",
+      "apps",
+      "chalkboard-stats-pressures-completed-per90",
+      "chalkboard-stats-possession-won-per90",
+      "non-penalty-expected-goals-per90",
+      "chalkboard-stats-pressures-attempted-per90",
+      "chalkboard-stats-sprints-per90",
+      "stats-goals-per90",
+      "average-rating",
+      "wage",
+      "transfer-value",
+      "contract-expiry-date",
+      "recommendation-grade-only"
+    ],
+    "native_import_status": "Pending"
+  },
+  {
+    "file": "views/Chase ST Pressing - Shortlist.fmf",
+    "sha256": "c90c225a726b555013088a3e5e265aa37cd64db9728484a5dda80cfd7670a0d5",
+    "collection": "PlayerSearchShortlistViewCollection",
+    "columns": [
+      "portrait-name",
+      "age",
+      "club",
+      "club-division",
+      "position",
+      "stats-minutes",
+      "apps",
+      "chalkboard-stats-pressures-completed-per90",
+      "chalkboard-stats-possession-won-per90",
+      "non-penalty-expected-goals-per90",
+      "chalkboard-stats-pressures-attempted-per90",
+      "chalkboard-stats-sprints-per90",
+      "stats-goals-per90",
+      "average-rating",
+      "wage",
+      "transfer-value",
+      "contract-expiry-date",
+      "recommendation-grade-only"
+    ],
+    "native_import_status": "Pending"
+  }
+]

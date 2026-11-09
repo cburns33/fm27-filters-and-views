@@ -1,0 +1,166 @@
+﻿stat,id,category,native_filter_type,status
+All Time League Goals,PAlg,Stats (General),pftr,Declared in installed FM27 search metadata
+All Time Career Goals,PAcg,Stats (General),pftr,Declared in installed FM27 search metadata
+All Time Career Appearances,PAap,Stats (General),pftr,Declared in installed FM27 search metadata
+All Time League Appearances,PAla,Stats (General),pftr,Declared in installed FM27 search metadata
+Last 5 Games,Pfrm,Stats (General),pftr,Declared in installed FM27 search metadata
+Last 5 First-Team Games,P1fm,Stats (General),pftr,Declared in installed FM27 search metadata
+Appearances,Poap,Stats (General),pftr,Declared in installed FM27 search metadata
+International Appearances (Season),PiaP,Stats (General),pftr,Declared in installed FM27 search metadata
+Starting Appearances,Posa,Stats (General),pftr,Declared in installed FM27 search metadata
+xG,PoxG,Stats (General),pftr,Declared in installed FM27 search metadata
+Expected Goals per 90 minutes,PxG9,Stats (General),pftr,Declared in installed FM27 search metadata
+Non Penalty Expected Goals,PNxg,Stats (General),pftr,Declared in installed FM27 search metadata
+Non Penalty Expected Goals per 90 minutes,PNx9,Stats (General),pftr,Declared in installed FM27 search metadata
+Assists,Poas,Stats (General),pftr,Declared in installed FM27 search metadata
+International Assists,Pias,Stats (General),pftr,Declared in installed FM27 search metadata
+Average Rating,Poav,Stats (General),pftr,Declared in installed FM27 search metadata
+International Average Rating,Piav,Stats (General),pftr,Declared in installed FM27 search metadata
+Fouls Made,Pofm,Stats (General),pftr,Declared in installed FM27 search metadata
+Fouls Against,Pofa,Stats (General),pftr,Declared in installed FM27 search metadata
+Dribbles Made per 90 minutes,Podr,Stats,pftr,Declared in installed FM27 search metadata
+Aerial Challenges attempted per 90 minutes,POhg,Stats,pftr,Declared in installed FM27 search metadata
+Headers Won per 90 minutes,POHg,Stats,pftr,Declared in installed FM27 search metadata
+Points Won Per Game,POwg,Stats (General),pftr,Declared in installed FM27 search metadata
+Minutes per game,POmg,Stats (General),pftr,Declared in installed FM27 search metadata
+Minutes Since Last Goal,POlg,Stats (General),pftr,Declared in installed FM27 search metadata
+Mistakes Leading To Goal,POgm,Stats,pftr,Declared in installed FM27 search metadata
+Average Minutes Per Goal,POMg,Stats (General),pftr,Declared in installed FM27 search metadata
+Minutes Since Last Conceded,POlc,Stats (General),pftr,Declared in installed FM27 search metadata
+Distance Covered,POdr,Stats,pftr,Declared in installed FM27 search metadata
+Distance Covered per 90 minutes,PODr,Stats,pftr,Declared in installed FM27 search metadata
+Penalties,POpt,Stats (General),pftr,Declared in installed FM27 search metadata
+Penalties Scored,POps,Stats (General),pftr,Declared in installed FM27 search metadata
+Penalties Scored Ratio,POpr,Stats (General),pfpc,Declared in installed FM27 search metadata
+Penalties Faced,PGpf,Stats (General),pftr,Declared in installed FM27 search metadata
+Penalties Saved,PGps,Stats (General),pftr,Declared in installed FM27 search metadata
+Penalties Saved Ratio,PGpr,Stats (General),pfpc,Declared in installed FM27 search metadata
+Total Saves per 90 minutes,POs9,Stats (General),pfpc,Declared in installed FM27 search metadata
+Games Won,POgw,Stats (General),pftr,Declared in installed FM27 search metadata
+Games Lost,POgl,Stats (General),pftr,Declared in installed FM27 search metadata
+Games Drawn,POgd,Stats (General),pftr,Declared in installed FM27 search metadata
+Game Win Ratio,POwr,Stats (General),pfpc,Declared in installed FM27 search metadata
+Team Goals,POTg,Stats (General),pftr,Declared in installed FM27 search metadata
+Team Goals Conceded,POTc,Stats (General),pftr,Declared in installed FM27 search metadata
+Team Goals per 90 minutes,POGg,Stats (General),pftr,Declared in installed FM27 search metadata
+Team Goals Conceded per 90 minutes,POCg,Stats (General),pftr,Declared in installed FM27 search metadata
+Tackle completion ratio,POtr,Stats,pfpc,Declared in installed FM27 search metadata
+Tackles attempted,POta,Stats,pftr,Declared in installed FM27 search metadata
+Tackles completed,POtc,Stats,pftr,Declared in installed FM27 search metadata
+Shots Blocked Defending,POsB,Stats,pftr,Declared in installed FM27 search metadata
+Shots Blocked Defending per 90 minutes,POsb,Stats,pftr,Declared in installed FM27 search metadata
+Blocks,Pobl,Stats,pftr,Declared in installed FM27 search metadata
+Blocks per 90 minutes,PObg,Stats,pftr,Declared in installed FM27 search metadata
+Expected Assists,PoxA,Stats (General),pftr,Declared in installed FM27 search metadata
+Expected Assists per 90 minutes,PxA9,Stats (General),pftr,Declared in installed FM27 search metadata
+Key Headers per 90 minutes,POH9,Stats,pftr,Declared in installed FM27 search metadata
+Key Tackles per 90 minutes,POt9,Stats,pftr,Declared in installed FM27 search metadata
+Progressive Passes,PGRp,Stats,pftr,Declared in installed FM27 search metadata
+Progressive Passes per 90 minutes,PGR9,Stats,pftr,Declared in installed FM27 search metadata
+Pressures attempted,PRSa,Stats,pftr,Declared in installed FM27 search metadata
+Pressures attempted per 90 minutes,PRS9,Stats,pftr,Declared in installed FM27 search metadata
+Pressures completed,Pres,Stats,pftr,Declared in installed FM27 search metadata
+Pressures completed per 90 minutes,Prs9,Stats,pftr,Declared in installed FM27 search metadata
+Possession Won per 90 minutes,POW9,Stats,pftr,Declared in installed FM27 search metadata
+Clearances per 90 minutes,POc9,Stats,pftr,Declared in installed FM27 search metadata
+High Intensity Sprints per 90 minutes,POSp,Stats,pftr,Declared in installed FM27 search metadata
+Possession Lost per 90 minutes,POL9,Stats,pftr,Declared in installed FM27 search metadata
+Open Play Key Passes,Popk,Stats,pftr,Declared in installed FM27 search metadata
+Open Play Key Passes per 90 minutes,Pop9,Stats,pftr,Declared in installed FM27 search metadata
+Expected Goals Overperformance,PxGO,Stats (General),pftr,Declared in installed FM27 search metadata
+Crosses attempted per 90 minutes,Poa9,Stats,pftr,Declared in installed FM27 search metadata
+Crosses completed per 90 minutes,POcP,Stats,pftr,Declared in installed FM27 search metadata
+Open Play Crosses attempted,PopC,Stats,pftr,Declared in installed FM27 search metadata
+Open Play Crosses attempted per 90 minutes,POP9,Stats,pftr,Declared in installed FM27 search metadata
+Open Play Crosses completed,PoPC,Stats,pftr,Declared in installed FM27 search metadata
+Open Play Crosses completed per 90 minutes,PoP9,Stats,pftr,Declared in installed FM27 search metadata
+Expected Goals Prevented,PxGP,Stats,pftr,Declared in installed FM27 search metadata
+Expected Goals Prevented per 90 minutes,Pxg9,Stats,pftr,Declared in installed FM27 search metadata
+Headers Won Ratio,POhr,Stats,pfpc,Declared in installed FM27 search metadata
+Aerial Challenges attempted,POha,Stats,pftr,Declared in installed FM27 search metadata
+Headers Won,POhc,Stats,pftr,Declared in installed FM27 search metadata
+Headers Lost per 90 minutes,POhL,Stats,pftr,Declared in installed FM27 search metadata
+Conversion Rate (%),POgS,Stats,pftr,Declared in installed FM27 search metadata
+Expected Goals per Shot,PxGs,Stats,pftr,Declared in installed FM27 search metadata
+Shots,POsa,Stats,pftr,Declared in installed FM27 search metadata
+Free Kick Shots,PFKS,Stats,pftr,Declared in installed FM27 search metadata
+Goals From Outside The Box,PGOB,Stats,pftr,Declared in installed FM27 search metadata
+Shots From Outside The Box Per 90 minutes,PSOB,Stats,pftr,Declared in installed FM27 search metadata
+Shots On Target,POst,Stats,pftr,Declared in installed FM27 search metadata
+Minutes,POmi,Stats (General),pftr,Declared in installed FM27 search metadata
+Clean Sheets,POcs,Stats (General),pftr,Declared in installed FM27 search metadata
+Clean Sheets per 90 minutes,POg9,Stats (General),pftr,Declared in installed FM27 search metadata
+Passes attempted,POpa,Stats,pftr,Declared in installed FM27 search metadata
+Passes attempted per 90 minutes,POpg,Stats,pftr,Declared in installed FM27 search metadata
+Passes completed,POpC,Stats,pftr,Declared in installed FM27 search metadata
+Passes completed per 90 minutes,POpc,Stats,pftr,Declared in installed FM27 search metadata
+Saves Held,POvh,Stats,pftr,Declared in installed FM27 search metadata
+Saves Parried,POvp,Stats,pftr,Declared in installed FM27 search metadata
+Saves Tipped,POvt,Stats,pftr,Declared in installed FM27 search metadata
+Save Ratio,POs%,Stats,pftr,Declared in installed FM27 search metadata
+Expected Save Percentage,POx%,Stats,pftr,Declared in installed FM27 search metadata
+Dribbles Made,POdm,Stats,pftr,Declared in installed FM27 search metadata
+Goals per 90 minutes,POgg,Stats (General),pftr,Declared in installed FM27 search metadata
+Key Passes per 90 minutes,POkG,Stats,pftr,Declared in installed FM27 search metadata
+Chances Created per 90 minutes,POcG,Stats,pftr,Declared in installed FM27 search metadata
+Interceptions per 90 minutes,POiG,Stats,pftr,Declared in installed FM27 search metadata
+Conceded per 90 minutes,POcg,Stats (General),pftr,Declared in installed FM27 search metadata
+Assists per 90 minutes,POag,Stats,pftr,Declared in installed FM27 search metadata
+Shots On Target per 90 minutes,POtg,Stats,pftr,Declared in installed FM27 search metadata
+Shots per 90 minutes,POsg,Stats,pftr,Declared in installed FM27 search metadata
+Goals,Pogl,Stats (General),pftr,Declared in installed FM27 search metadata
+Goals Conceded,Poco,Stats (General),pftr,Declared in installed FM27 search metadata
+International Goals Conceded,Pico,Stats (General),pftr,Declared in installed FM27 search metadata
+Yellow cards,Poyc,Stats (General),pftr,Declared in installed FM27 search metadata
+Red cards,Porc,Stats (General),pftr,Declared in installed FM27 search metadata
+Player Of The Match,Pomo,Stats (General),pftr,Declared in installed FM27 search metadata
+Pass Completion Ratio,Popa,Stats,pfpc,Declared in installed FM27 search metadata
+Shots On Target Ratio,Post,Stats,pfpc,Declared in installed FM27 search metadata
+Tackles per 90 minutes,Pota,Stats,pftr,Declared in installed FM27 search metadata
+Awards,Nnaw,Stats,p100,Declared in installed FM27 search metadata
+Number of club manager jobs,Ntmm,Stats,pf20,Declared in installed FM27 search metadata
+Number of national manager jobs,Nntm,Stats,pftr,Declared in installed FM27 search metadata
+Highest nation ranking,Nhtr,Stats,pftr,Declared in installed FM27 search metadata
+Highest continental ranking,Nhcr,Stats,pftr,Declared in installed FM27 search metadata
+Highest world ranking,Nhwr,Stats,pftr,Declared in installed FM27 search metadata
+Leagues,Ctlw,Stats,pftr,Declared in installed FM27 search metadata
+Cups,Ctpw,Stats,pftr,Declared in installed FM27 search metadata
+Promotions,Ctnp,Stats,pftr,Declared in installed FM27 search metadata
+Relegations,Ctnr,Stats,pftr,Declared in installed FM27 search metadata
+Club Games Played,Ctgp,Stats,pftr,Declared in installed FM27 search metadata
+Club Games Won,Ctgw,Stats,pftr,Declared in installed FM27 search metadata
+Club Games Drawn,Ctgd,Stats,pftr,Declared in installed FM27 search metadata
+Club Games Lost,Ctgl,Stats,pftr,Declared in installed FM27 search metadata
+Club Goals For,Ctgf,Stats,pftr,Declared in installed FM27 search metadata
+Club Goals Against,Ctga,Stats,pftr,Declared in installed FM27 search metadata
+Club Goal Difference,Ctdf,Stats,pftr,Declared in installed FM27 search metadata
+Club Win Percentage,Ctwr,Stats,pfpc,Declared in installed FM27 search metadata
+International Games Played,Ntgp,Stats,pftr,Declared in installed FM27 search metadata
+International Games Won,Ntgw,Stats,pftr,Declared in installed FM27 search metadata
+International Games Drawn,Ntgd,Stats,pftr,Declared in installed FM27 search metadata
+International Games Lost,Ntgl,Stats,pftr,Declared in installed FM27 search metadata
+International Goals For,Ntgf,Stats,pftr,Declared in installed FM27 search metadata
+International Goals Against,Ntga,Stats,pftr,Declared in installed FM27 search metadata
+International Goal Difference,Ntdf,Stats,pftr,Declared in installed FM27 search metadata
+International Win Percentage,Ntgr,Stats,pfpc,Declared in installed FM27 search metadata
+Games Played,Tgpl,Stats,pftr,Declared in installed FM27 search metadata
+Games Won,Tgwn,Stats,pftr,Declared in installed FM27 search metadata
+Games Drawn,Tgdw,Stats,pftr,Declared in installed FM27 search metadata
+Games Lost,Tglt,Stats,pftr,Declared in installed FM27 search metadata
+Goals For,Tgfr,Stats,pftr,Declared in installed FM27 search metadata
+Goals Against,Tgaa,Stats,pftr,Declared in installed FM27 search metadata
+Goal Difference,Tgdf,Stats,pftr,Declared in installed FM27 search metadata
+Win Percentage,Tgwr,Stats,pfpc,Declared in installed FM27 search metadata
+Draw Percentage,Tgdr,Stats,pfpc,Declared in installed FM27 search metadata
+Loss Percentage,Tglr,Stats,pfpc,Declared in installed FM27 search metadata
+Games Missed In A Row,PGmM,Stats (General),pftr,Declared in installed FM27 search metadata
+Offsides,POof,Stats,pftr,Declared in installed FM27 search metadata
+Crosses attempted,POca,Stats,pftr,Declared in installed FM27 search metadata
+Crosses completed,POcc,Stats,pftr,Declared in installed FM27 search metadata
+Cross Completion Ratio,POcr,Stats,pfpc,Declared in installed FM27 search metadata
+Open Play Cross Completion Ratio,POCr,Stats,pfpc,Declared in installed FM27 search metadata
+Key Passes,POkp,Stats,pftr,Declared in installed FM27 search metadata
+Clear Cut Chances Created,POCc,Stats,pftr,Declared in installed FM27 search metadata
+Key Tackles,POkt,Stats,pftr,Declared in installed FM27 search metadata
+Clearances,POCL,Stats,pftr,Declared in installed FM27 search metadata
+Interceptions,POic,Stats,pftr,Declared in installed FM27 search metadata

@@ -1,0 +1,341 @@
+[
+  {
+    "profile": "GK Shot Stopper",
+    "positions": [
+      "GK"
+    ],
+    "source": "Own provisional",
+    "minimums": {
+      "Expected Goals Prevented per 90 minutes": 0.1
+    },
+    "review_columns": [
+      "Save Ratio",
+      "Expected Save Percentage",
+      "Pass Completion Ratio"
+    ],
+    "first_comparison_stat": "Expected Goals Prevented per 90 minutes"
+  },
+  {
+    "profile": "CB Defensive",
+    "positions": [
+      "DC"
+    ],
+    "source": "Own provisional",
+    "minimums": {
+      "Headers Won Ratio": 60,
+      "Headers Won per 90 minutes": 2,
+      "Tackle completion ratio": 70
+    },
+    "review_columns": [
+      "Interceptions per 90 minutes",
+      "Shots Blocked Defending per 90 minutes",
+      "Clearances per 90 minutes"
+    ],
+    "first_comparison_stat": "Headers Won Ratio"
+  },
+  {
+    "profile": "CB Ball Playing",
+    "positions": [
+      "DC"
+    ],
+    "source": "Own provisional; tackle 60 is confirmed selectable in user export",
+    "minimums": {
+      "Progressive Passes per 90 minutes": 3,
+      "Pass Completion Ratio": 80,
+      "Tackle completion ratio": 60
+    },
+    "review_columns": [
+      "Headers Won Ratio",
+      "Interceptions per 90 minutes",
+      "Possession Lost per 90 minutes"
+    ],
+    "first_comparison_stat": "Progressive Passes per 90 minutes"
+  },
+  {
+    "profile": "FB Defensive",
+    "positions": [
+      "DL",
+      "DR"
+    ],
+    "source": "Own provisional",
+    "minimums": {
+      "Tackle completion ratio": 70,
+      "Interceptions per 90 minutes": 1,
+      "Possession Won per 90 minutes": 3
+    },
+    "review_columns": [
+      "Pass Completion Ratio",
+      "Headers Won Ratio",
+      "Possession Lost per 90 minutes"
+    ],
+    "first_comparison_stat": "Tackle completion ratio"
+  },
+  {
+    "profile": "WB Attacking",
+    "positions": [
+      "WBL",
+      "WBR"
+    ],
+    "source": "User screenshot thresholds",
+    "minimums": {
+      "Dribbles Made per 90 minutes": 1.5,
+      "High Intensity Sprints per 90 minutes": 10,
+      "Open Play Crosses attempted per 90 minutes": 1,
+      "Open Play Key Passes per 90 minutes": 1,
+      "Expected Assists per 90 minutes": 0.1
+    },
+    "review_columns": [
+      "Tackle completion ratio",
+      "Interceptions per 90 minutes"
+    ],
+    "first_comparison_stat": "Dribbles Made per 90 minutes"
+  },
+  {
+    "profile": "FB Inverted",
+    "positions": [
+      "DL",
+      "DR",
+      "WBL",
+      "WBR"
+    ],
+    "source": "Own provisional",
+    "minimums": {
+      "Progressive Passes per 90 minutes": 3,
+      "Pass Completion Ratio": 80,
+      "Interceptions per 90 minutes": 0.75
+    },
+    "review_columns": [
+      "Dribbles Made per 90 minutes",
+      "Possession Won per 90 minutes",
+      "Possession Lost per 90 minutes"
+    ],
+    "first_comparison_stat": "Progressive Passes per 90 minutes"
+  },
+  {
+    "profile": "DM Holding",
+    "positions": [
+      "DM"
+    ],
+    "source": "Own provisional",
+    "minimums": {
+      "Interceptions per 90 minutes": 1,
+      "Possession Won per 90 minutes": 3,
+      "Pass Completion Ratio": 80
+    },
+    "review_columns": [
+      "Tackle completion ratio",
+      "Possession Lost per 90 minutes",
+      "Headers Won Ratio"
+    ],
+    "first_comparison_stat": "Interceptions per 90 minutes"
+  },
+  {
+    "profile": "DM CM Deep Playmaker",
+    "positions": [
+      "DM",
+      "MC"
+    ],
+    "source": "Own provisional",
+    "minimums": {
+      "Progressive Passes per 90 minutes": 4,
+      "Pass Completion Ratio": 80,
+      "Passes completed per 90 minutes": 30
+    },
+    "review_columns": [
+      "Open Play Key Passes per 90 minutes",
+      "Possession Lost per 90 minutes",
+      "Interceptions per 90 minutes"
+    ],
+    "first_comparison_stat": "Progressive Passes per 90 minutes"
+  },
+  {
+    "profile": "DM CM Ball Winner",
+    "positions": [
+      "DM",
+      "MC"
+    ],
+    "source": "Own provisional",
+    "minimums": {
+      "Possession Won per 90 minutes": 4,
+      "Interceptions per 90 minutes": 1,
+      "Pressures completed per 90 minutes": 2
+    },
+    "review_columns": [
+      "Tackle completion ratio",
+      "Pass Completion Ratio",
+      "Fouls Made"
+    ],
+    "first_comparison_stat": "Possession Won per 90 minutes"
+  },
+  {
+    "profile": "CM Box to Box",
+    "positions": [
+      "MC"
+    ],
+    "source": "Own provisional",
+    "minimums": {
+      "High Intensity Sprints per 90 minutes": 8,
+      "Possession Won per 90 minutes": 3,
+      "Progressive Passes per 90 minutes": 2
+    },
+    "review_columns": [
+      "Distance Covered per 90 minutes",
+      "Expected Goals per 90 minutes",
+      "Expected Assists per 90 minutes",
+      "Dribbles Made per 90 minutes"
+    ],
+    "first_comparison_stat": "High Intensity Sprints per 90 minutes"
+  },
+  {
+    "profile": "CAM Attacking",
+    "positions": [
+      "AMC"
+    ],
+    "source": "Earlier unlabeled central midfield screenshot; AMC selection is ours",
+    "minimums": {
+      "Expected Goals per 90 minutes": 0.2,
+      "Expected Assists per 90 minutes": 0.1,
+      "Open Play Key Passes per 90 minutes": 1.5,
+      "Dribbles Made per 90 minutes": 2,
+      "High Intensity Sprints per 90 minutes": 8
+    },
+    "review_columns": [
+      "Shots On Target Ratio",
+      "Pass Completion Ratio",
+      "Possession Lost per 90 minutes"
+    ],
+    "first_comparison_stat": "Expected Goals per 90 minutes"
+  },
+  {
+    "profile": "CAM Free Role",
+    "positions": [
+      "AMC"
+    ],
+    "source": "User CAM FR guide screenshot",
+    "minimums": {
+      "Expected Goals per 90 minutes": 0.2,
+      "Expected Assists per 90 minutes": 0.1,
+      "Open Play Key Passes per 90 minutes": 1.5,
+      "Dribbles Made per 90 minutes": 2,
+      "Shots On Target Ratio": 30,
+      "High Intensity Sprints per 90 minutes": 8
+    },
+    "review_columns": [
+      "Pass Completion Ratio",
+      "Possession Lost per 90 minutes"
+    ],
+    "first_comparison_stat": "Expected Goals per 90 minutes"
+  },
+  {
+    "profile": "W Touchline",
+    "positions": [
+      "ML",
+      "MR",
+      "AML",
+      "AMR"
+    ],
+    "source": "Own provisional; broader than historical FM26 winger floors",
+    "minimums": {
+      "Dribbles Made per 90 minutes": 2,
+      "Expected Assists per 90 minutes": 0.1,
+      "Open Play Crosses attempted per 90 minutes": 1
+    },
+    "review_columns": [
+      "Open Play Key Passes per 90 minutes",
+      "Open Play Cross Completion Ratio",
+      "High Intensity Sprints per 90 minutes"
+    ],
+    "first_comparison_stat": "Dribbles Made per 90 minutes"
+  },
+  {
+    "profile": "W Inside Forward",
+    "positions": [
+      "AML",
+      "AMR"
+    ],
+    "source": "Own provisional",
+    "minimums": {
+      "Non Penalty Expected Goals per 90 minutes": 0.2,
+      "Shots per 90 minutes": 2,
+      "Dribbles Made per 90 minutes": 1
+    },
+    "review_columns": [
+      "Shots On Target Ratio",
+      "Expected Assists per 90 minutes",
+      "High Intensity Sprints per 90 minutes"
+    ],
+    "first_comparison_stat": "Non Penalty Expected Goals per 90 minutes"
+  },
+  {
+    "profile": "ST Goalscorer",
+    "positions": [
+      "ST"
+    ],
+    "source": "Own provisional; xG-focused rather than historical conversion screen",
+    "minimums": {
+      "Non Penalty Expected Goals per 90 minutes": 0.3,
+      "Shots per 90 minutes": 2,
+      "Goals per 90 minutes": 0.3
+    },
+    "review_columns": [
+      "Shots On Target Ratio",
+      "Conversion Rate (%)",
+      "Expected Assists per 90 minutes"
+    ],
+    "first_comparison_stat": "Non Penalty Expected Goals per 90 minutes"
+  },
+  {
+    "profile": "ST Target",
+    "positions": [
+      "ST"
+    ],
+    "source": "Own provisional",
+    "minimums": {
+      "Headers Won per 90 minutes": 3,
+      "Headers Won Ratio": 50,
+      "Non Penalty Expected Goals per 90 minutes": 0.2
+    },
+    "review_columns": [
+      "Goals per 90 minutes",
+      "Open Play Key Passes per 90 minutes",
+      "Pass Completion Ratio"
+    ],
+    "first_comparison_stat": "Headers Won per 90 minutes"
+  },
+  {
+    "profile": "ST Linking",
+    "positions": [
+      "ST"
+    ],
+    "source": "Own provisional",
+    "minimums": {
+      "Expected Assists per 90 minutes": 0.1,
+      "Open Play Key Passes per 90 minutes": 0.75,
+      "Non Penalty Expected Goals per 90 minutes": 0.2
+    },
+    "review_columns": [
+      "Goals per 90 minutes",
+      "Pass Completion Ratio",
+      "Possession Lost per 90 minutes"
+    ],
+    "first_comparison_stat": "Expected Assists per 90 minutes"
+  },
+  {
+    "profile": "ST Pressing",
+    "positions": [
+      "ST"
+    ],
+    "source": "Own provisional",
+    "minimums": {
+      "Pressures completed per 90 minutes": 2,
+      "Possession Won per 90 minutes": 1.5,
+      "Non Penalty Expected Goals per 90 minutes": 0.2
+    },
+    "review_columns": [
+      "Pressures attempted per 90 minutes",
+      "High Intensity Sprints per 90 minutes",
+      "Goals per 90 minutes"
+    ],
+    "first_comparison_stat": "Pressures completed per 90 minutes"
+  }
+]

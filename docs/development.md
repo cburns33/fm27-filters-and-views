@@ -6,7 +6,7 @@ Requirements: Python 3.14 (including compression.zstd) and cryptography. Install
 
 Local inputs, excluded from Git:
 
-- The user's native `Chase Sample WB.fmf`, `Chase Corrected CB.fmf` and `Chase Position Map.fmf` exports in the local player search filters folder.
+- The user's native `Chase Sample WB.fmf`, `Chase Corrected CB.fmf` and `Chase Position Map.fmf` exports in a private native-samples folder outside the installed filter pool.
 - `person_filter_metadata.xml` extracted from the installed FM27 search definitions.
 - `player-table-factory.json` extracted from the installed PlayerTableFactory Unity definition.
 
@@ -14,6 +14,7 @@ Environment settings:
 
 - `FM27_USER_DIR`: Football Manager 27 user directory containing the native sample exports.
 - `FM27_BUILD_INPUTS`: directory containing the two extracted metadata files; defaults to private-inputs in the repository.
+- `FM27_NATIVE_SAMPLES`: folder containing the original private exports; defaults to native-samples inside FM27_BUILD_INPUTS.
 - `FM27_PACK_PROJECT`: output project root; defaults to this repository.
 
 Run `python tools/build_pack.py`, then `python tools/check_pack.py`. These are local build checks; the samples and game-derived inputs needed to run them are not published. They are not configured as public CI.

@@ -1,7 +1,7 @@
 [
   {
-    "file": "player search filters/Chase GK Shot Stopper - Early.fmf",
-    "sha256": "8d581825377e4fec23b705ce93de0ecbb5208f0537c4dd9f2e9cba90cc7c793f",
+    "file": "player search filters/GK Shot Stopper - Early.fmf",
+    "sha256": "f934e13b670a8fb6fd8e0b8a98631b6132c71c14dae4fb5b114ec303ad3de494",
     "positions": [
       "GK"
     ],
@@ -19,8 +19,8 @@
     "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
   },
   {
-    "file": "player search filters/Chase GK Shot Stopper - Midseason.fmf",
-    "sha256": "c56e8c51216a2933c3566afc10801e85ef76bcff4ac7d75865d61fac990cb3f2",
+    "file": "player search filters/GK Shot Stopper - Midseason.fmf",
+    "sha256": "cf5739886b46dd1f24aa26517968517ed5078ebbd58b75b5e3f97870d26fb950",
     "positions": [
       "GK"
     ],
@@ -43,8 +43,8 @@
     "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
   },
   {
-    "file": "player search filters/Chase GK Shot Stopper - Full Season.fmf",
-    "sha256": "f901172ac0ac615a4012c396d1d49af0a3e60b3eb059d330cd0ef6e364c35587",
+    "file": "player search filters/GK Shot Stopper - Full Season.fmf",
+    "sha256": "170d8be588c55657025560ab35bc129ab1e46b2136419a5275078d785de4c162",
     "positions": [
       "GK"
     ],
@@ -67,8 +67,8 @@
     "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
   },
   {
-    "file": "views/Chase GK Shot Stopper - Search.fmf",
-    "sha256": "9414b736a4564bb81b7f9fcb14800657219cd8127fe6dcc9bee8190b2c45151e",
+    "file": "views/GK Shot Stopper - Search.fmf",
+    "sha256": "433d467d04493c27cf6f51a40fc7546ed10b98904965130b7817ad7693274cec",
     "collection": "PlayerSearchResultsViewCollection",
     "columns": [
       "portrait-name",
@@ -91,8 +91,8 @@
     "native_import_status": "Pending"
   },
   {
-    "file": "views/Chase GK Shot Stopper - Shortlist.fmf",
-    "sha256": "06879836e34c83239626e5648bf154fec07dc9cc6a0ac4fdaa061c85029b1850",
+    "file": "views/GK Shot Stopper - Shortlist.fmf",
+    "sha256": "4c2faa1db06ce213f293929a0babf423077aa87a94b3a21536975c1c62386c2a",
     "collection": "PlayerSearchShortlistViewCollection",
     "columns": [
       "portrait-name",
@@ -115,8 +115,8 @@
     "native_import_status": "Pending"
   },
   {
-    "file": "player search filters/Chase CB Defensive - Early.fmf",
-    "sha256": "3ca9ac73f01ee59ca5885c4b931bdc4ebea4790fb525d25fd4710c3fbaaeafb4",
+    "file": "player search filters/CB Defensive - Early.fmf",
+    "sha256": "ebb4340873280eefc24f4792c766becdf24c5d83add06b447f57139bf2b24a66",
     "positions": [
       "DC"
     ],
@@ -144,8 +144,8 @@
     "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
   },
   {
-    "file": "player search filters/Chase CB Defensive - Midseason.fmf",
-    "sha256": "00fd94272400fdd8f416e31cae89bc6b2413db865bb2fe62b2cae61d857a46e8",
+    "file": "player search filters/CB Defensive - Midseason.fmf",
+    "sha256": "f440a7c9b434d2e344087ebe4213e6f33991b644c4d29b8cca5d298d81cb695e",
     "positions": [
       "DC"
     ],
@@ -178,8 +178,8 @@
     "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
   },
   {
-    "file": "player search filters/Chase CB Defensive - Full Season.fmf",
-    "sha256": "cbb5e6b8c64875e9257d93d372518f249720416b663faa0dcf69b2cf4d254b73",
+    "file": "player search filters/CB Defensive - Full Season.fmf",
+    "sha256": "be1af1f3816dff6f7309036ea496ad539be337e4ce0aea8633bdabc09a4ec192",
     "positions": [
       "DC"
     ],
@@ -212,8 +212,8 @@
     "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
   },
   {
-    "file": "views/Chase CB Defensive - Search.fmf",
-    "sha256": "41a65bb0c9f58d1cde83cbd42cc9b90b269655f7f3e858b1c1f93f80577bfaaf",
+    "file": "views/CB Defensive - Search.fmf",
+    "sha256": "81d421bbabe91f683b9dabbf0d11894c1214dc6bdafdf2a10a421dcbb9a518f5",
     "collection": "PlayerSearchResultsViewCollection",
     "columns": [
       "portrait-name",
@@ -238,8 +238,8 @@
     "native_import_status": "Pending"
   },
   {
-    "file": "views/Chase CB Defensive - Shortlist.fmf",
-    "sha256": "4c2c95c0e0f84b94be63a27c2d706fb92e0fd3ded79ee51b5338e19f344f87f9",
+    "file": "views/CB Defensive - Shortlist.fmf",
+    "sha256": "f874ff021ad48844b73c7d884be50aafdf8b78d3978f2431de6195abd1486c65",
     "collection": "PlayerSearchShortlistViewCollection",
     "columns": [
       "portrait-name",
@@ -264,8 +264,8 @@
     "native_import_status": "Pending"
   },
   {
-    "file": "player search filters/Chase CB Ball Playing - Early.fmf",
-    "sha256": "11689070687dd38374513c3df826154755691c40986fdd291cf5005c0ab0c8fa",
+    "file": "player search filters/CB Ball Playing - Early.fmf",
+    "sha256": "9149bf0068c38690b1894c91289f44da95b98c82ab3fb2e7369f72bd8ac15e4a",
     "positions": [
       "DC"
     ],
@@ -293,8 +293,8 @@
     "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
   },
   {
-    "file": "player search filters/Chase CB Ball Playing - Midseason.fmf",
-    "sha256": "500ff2e6d0e7c59862bdfa3894777c4d1d8029c7b27abc206ca967fa2ba182a8",
+    "file": "player search filters/CB Ball Playing - Midseason.fmf",
+    "sha256": "46c43bcbdae8143f5a9a44d661efb56487638eee76aa04659be23658c1dc8b13",
     "positions": [
       "DC"
     ],
@@ -327,8 +327,8 @@
     "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
   },
   {
-    "file": "player search filters/Chase CB Ball Playing - Full Season.fmf",
-    "sha256": "ea2357c5b5f46268c442a4cf43533418155efa860a240a408f0bb97e4abc00ef",
+    "file": "player search filters/CB Ball Playing - Full Season.fmf",
+    "sha256": "ee876a15b3033e43cb373c6bebd5ece3c38a81a03c59e68d3d8401e344dc2cc7",
     "positions": [
       "DC"
     ],
@@ -361,8 +361,8 @@
     "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
   },
   {
-    "file": "views/Chase CB Ball Playing - Search.fmf",
-    "sha256": "e113757638be901ffb3775dc1d51fe6932cfb6e6ee02fa7b6e613e2dff9cdbba",
+    "file": "views/CB Ball Playing - Search.fmf",
+    "sha256": "d0d7ded1dbc76cc2b1adc06c3b534d9e99309a596780596b3324fded6680d70a",
     "collection": "PlayerSearchResultsViewCollection",
     "columns": [
       "portrait-name",
@@ -387,8 +387,8 @@
     "native_import_status": "Pending"
   },
   {
-    "file": "views/Chase CB Ball Playing - Shortlist.fmf",
-    "sha256": "ce048526895fe7388c3a003559e9bd57d375f0d23beea030171a0a13571e969a",
+    "file": "views/CB Ball Playing - Shortlist.fmf",
+    "sha256": "a30e5e00e008e730c91b730b033b01dde5df5131774e2b3a5d1905bf265f74a3",
     "collection": "PlayerSearchShortlistViewCollection",
     "columns": [
       "portrait-name",
@@ -413,8 +413,8 @@
     "native_import_status": "Pending"
   },
   {
-    "file": "player search filters/Chase FB Defensive - Early.fmf",
-    "sha256": "97140a0275b1fe7d8af5974173e5589d8328433cff70ee52c3b4157fac75ea96",
+    "file": "player search filters/FB Defensive - Early.fmf",
+    "sha256": "a46b62272cb4e5fa97fd6d98645fee4f783ec2daea494c63b855be2d7eae8620",
     "positions": [
       "DL",
       "DR"
@@ -443,8 +443,8 @@
     "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
   },
   {
-    "file": "player search filters/Chase FB Defensive - Midseason.fmf",
-    "sha256": "bbf9b059af84d6b7fff83066e6c08b5175843685c1f415fcc212626dfc709f2f",
+    "file": "player search filters/FB Defensive - Midseason.fmf",
+    "sha256": "506c8cd6273a3b643ee20880ee3a01e97ca3a718693106b03b65fbf85c7f5e62",
     "positions": [
       "DL",
       "DR"
@@ -478,8 +478,8 @@
     "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
   },
   {
-    "file": "player search filters/Chase FB Defensive - Full Season.fmf",
-    "sha256": "09297a830a380400b84bbe141dafdc07957e2384e34d64e0c422374710a0b9a2",
+    "file": "player search filters/FB Defensive - Full Season.fmf",
+    "sha256": "523456189ee41be1c04d0d0c93eb1a975778334f9da3573a09f8898a7d5e9657",
     "positions": [
       "DL",
       "DR"
@@ -513,8 +513,8 @@
     "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
   },
   {
-    "file": "views/Chase FB Defensive - Search.fmf",
-    "sha256": "e38937cb7ea47858b4ee9b17d1a069cf23dce582a20095e366891295d6ae8706",
+    "file": "views/FB Defensive - Search.fmf",
+    "sha256": "70e659a3a6e90123e0cc8ea33db1f7ac64156e7bf8ab0d34318cdeebe466e4da",
     "collection": "PlayerSearchResultsViewCollection",
     "columns": [
       "portrait-name",
@@ -539,8 +539,8 @@
     "native_import_status": "Pending"
   },
   {
-    "file": "views/Chase FB Defensive - Shortlist.fmf",
-    "sha256": "9f758e02fe31d05a4b97b574a95bb4f2344b3d93067dd8d78ed2348874d12480",
+    "file": "views/FB Defensive - Shortlist.fmf",
+    "sha256": "b1d25e7c75f26efb935007d2b145c3c8cc626e01b41a88f10ca5453d4894728e",
     "collection": "PlayerSearchShortlistViewCollection",
     "columns": [
       "portrait-name",
@@ -565,8 +565,8 @@
     "native_import_status": "Pending"
   },
   {
-    "file": "player search filters/Chase WB Attacking - Early.fmf",
-    "sha256": "e43719a6c023d701cc5a59d2d8c64ad0e14013821b0996b01022915d1897a026",
+    "file": "player search filters/WB Attacking - Early.fmf",
+    "sha256": "ec45d850ab074d4ce3a7f288fc4dd27a73713d9272861657201e767736dab2b5",
     "positions": [
       "WBL",
       "WBR"
@@ -605,8 +605,8 @@
     "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
   },
   {
-    "file": "player search filters/Chase WB Attacking - Midseason.fmf",
-    "sha256": "8c559ebf6f55617d3a99372bcdac00b3a048e60002d6572bbbd655d8dbdd10ef",
+    "file": "player search filters/WB Attacking - Midseason.fmf",
+    "sha256": "1dfe2da506b8cd22881d32a7e13cb819989d979dec130086ab977eec0375fe06",
     "positions": [
       "WBL",
       "WBR"
@@ -650,8 +650,8 @@
     "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
   },
   {
-    "file": "player search filters/Chase WB Attacking - Full Season.fmf",
-    "sha256": "6e156ea36e051540c2ff378fa93fc241e3fc0af1b44b3cf815b01e2e668163eb",
+    "file": "player search filters/WB Attacking - Full Season.fmf",
+    "sha256": "5f977ec93fecc8118bd2e42baae6b50d7adc2945d55fe5689c1f13f8951af0ec",
     "positions": [
       "WBL",
       "WBR"
@@ -695,8 +695,8 @@
     "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
   },
   {
-    "file": "views/Chase WB Attacking - Search.fmf",
-    "sha256": "f5b0ece04c7fb4adc87ba9665c37a06319dbfd69cc12d9f1a9037ba9580e1b5e",
+    "file": "views/WB Attacking - Search.fmf",
+    "sha256": "1c536c713bd17dda0e101aa834dd69034b2e881d6ef0833c815e49fc710ad413",
     "collection": "PlayerSearchResultsViewCollection",
     "columns": [
       "portrait-name",
@@ -722,8 +722,8 @@
     "native_import_status": "Pending"
   },
   {
-    "file": "views/Chase WB Attacking - Shortlist.fmf",
-    "sha256": "b67e964182b756bedd79e3d677a04d2dd938ee7222b67a01bd7af2d56493fec0",
+    "file": "views/WB Attacking - Shortlist.fmf",
+    "sha256": "51e22a8259839468cfc066ccf25bfaf93525dbbc339b29aaa2c86c0460340bdf",
     "collection": "PlayerSearchShortlistViewCollection",
     "columns": [
       "portrait-name",
@@ -749,8 +749,8 @@
     "native_import_status": "Pending"
   },
   {
-    "file": "player search filters/Chase FB Inverted - Early.fmf",
-    "sha256": "5e0fee9adaaf723f253734b3342d5f9f6c568fc7cf157f05337215c7fd39b074",
+    "file": "player search filters/FB Inverted - Early.fmf",
+    "sha256": "9dcc25bf394152d6c6cc8511b11dd250dd569aead04971088a71ef3fc4437340",
     "positions": [
       "DL",
       "DR",
@@ -781,8 +781,8 @@
     "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
   },
   {
-    "file": "player search filters/Chase FB Inverted - Midseason.fmf",
-    "sha256": "63e724bf15c5bf357ee0c59a2807fb3a693b8fba431b7b5045b403228214b8dc",
+    "file": "player search filters/FB Inverted - Midseason.fmf",
+    "sha256": "ecc6c6e282f95587dfd30819b5f493045655ff2f60aa2d4ada54cfc67d950a27",
     "positions": [
       "DL",
       "DR",
@@ -818,8 +818,8 @@
     "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
   },
   {
-    "file": "player search filters/Chase FB Inverted - Full Season.fmf",
-    "sha256": "34391ae9dcd61778323ccf83346bac46c03afeb1d638ace5c9cce006bd1de994",
+    "file": "player search filters/FB Inverted - Full Season.fmf",
+    "sha256": "5c7a540aa533a00e1a814930c50af8fe46c1eb35fcb0ce1246d5a5a1dcfc39f7",
     "positions": [
       "DL",
       "DR",
@@ -855,8 +855,8 @@
     "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
   },
   {
-    "file": "views/Chase FB Inverted - Search.fmf",
-    "sha256": "ff3ff44caecff0ad24ed67737b88af304efd8140ebfab250ddc3e1127e25799c",
+    "file": "views/FB Inverted - Search.fmf",
+    "sha256": "1041d2bda3391ab4a00594dc286351c11b4fdd3d4f8655c6cea6411dd9aa1386",
     "collection": "PlayerSearchResultsViewCollection",
     "columns": [
       "portrait-name",
@@ -881,8 +881,8 @@
     "native_import_status": "Pending"
   },
   {
-    "file": "views/Chase FB Inverted - Shortlist.fmf",
-    "sha256": "8bf23c1ed97394a4a7596821366905ef84b2e4e16d311a9754830fb8946d0417",
+    "file": "views/FB Inverted - Shortlist.fmf",
+    "sha256": "3ea6e6aa1c11b2b6f865d2d7649ba0c31a6c850c58d08bef26b9f397137b7b40",
     "collection": "PlayerSearchShortlistViewCollection",
     "columns": [
       "portrait-name",
@@ -907,8 +907,8 @@
     "native_import_status": "Pending"
   },
   {
-    "file": "player search filters/Chase DM Holding - Early.fmf",
-    "sha256": "cc81f80c900b86648dd0fd64cd11a97606bbe4659e98e767c8dfec0bbb2a0020",
+    "file": "player search filters/DM Holding - Early.fmf",
+    "sha256": "235ab0da3ee1866bb548261087f5ec786dbba34cfe7654f908b10980fee60c63",
     "positions": [
       "DM"
     ],
@@ -936,8 +936,8 @@
     "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
   },
   {
-    "file": "player search filters/Chase DM Holding - Midseason.fmf",
-    "sha256": "4c6df0717b989d71267dd730ad1a62fe6fcf905d57d0afa0c78143c8d189c5a4",
+    "file": "player search filters/DM Holding - Midseason.fmf",
+    "sha256": "bc7b3634e869840a7503371b496f88ecaaca23e2a612b522669d01c9e6779300",
     "positions": [
       "DM"
     ],
@@ -970,8 +970,8 @@
     "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
   },
   {
-    "file": "player search filters/Chase DM Holding - Full Season.fmf",
-    "sha256": "e6c36708c0970f3c3a473359f0a8fb2ac2ec67ecd49ff1de8ea46a4b32a05916",
+    "file": "player search filters/DM Holding - Full Season.fmf",
+    "sha256": "96484b8e86f89613e9ce441e177fc7691fb563f4f3f6d9aac632fcd842c81c5c",
     "positions": [
       "DM"
     ],
@@ -1004,8 +1004,8 @@
     "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
   },
   {
-    "file": "views/Chase DM Holding - Search.fmf",
-    "sha256": "4c31d996993cf6535b40929e6f0d12d78f86f157fab169fd404b338e5bd01c5a",
+    "file": "views/DM Holding - Search.fmf",
+    "sha256": "7ca97389a58456810490895f97d27de78593abb2c8b6502184d0617b8331a5f1",
     "collection": "PlayerSearchResultsViewCollection",
     "columns": [
       "portrait-name",
@@ -1030,8 +1030,8 @@
     "native_import_status": "Pending"
   },
   {
-    "file": "views/Chase DM Holding - Shortlist.fmf",
-    "sha256": "2d540c0741f2ddae08bfed95348ce515cffa5fffb00673d2395d991eb5870abc",
+    "file": "views/DM Holding - Shortlist.fmf",
+    "sha256": "31cccc9a44791341ab5832a70adec1c3eaedab3eb14689f718c651a0e04918db",
     "collection": "PlayerSearchShortlistViewCollection",
     "columns": [
       "portrait-name",
@@ -1056,8 +1056,8 @@
     "native_import_status": "Pending"
   },
   {
-    "file": "player search filters/Chase DM CM Deep Playmaker - Early.fmf",
-    "sha256": "7708cc1ee33751d643c3783d707fc558b8c715b7912a51c426c6a537ce2d68ce",
+    "file": "player search filters/DM CM Deep Playmaker - Early.fmf",
+    "sha256": "95e50e353abb4f9114596ccec86a0f74eaeab52b2cb656a772cc779a1ef31d2e",
     "positions": [
       "DM",
       "MC"
@@ -1086,8 +1086,8 @@
     "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
   },
   {
-    "file": "player search filters/Chase DM CM Deep Playmaker - Midseason.fmf",
-    "sha256": "67db34f52c719a1276778d6eac9e05dd9645032c5b1e64b364b1a76ccb27eed8",
+    "file": "player search filters/DM CM Deep Playmaker - Midseason.fmf",
+    "sha256": "460844da00840199588229dc6ed8c10182760107e1ac5d39ee6ec001de50cf19",
     "positions": [
       "DM",
       "MC"
@@ -1121,8 +1121,8 @@
     "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
   },
   {
-    "file": "player search filters/Chase DM CM Deep Playmaker - Full Season.fmf",
-    "sha256": "5e8397c09a3a2ee38bb1b79d48282f07ae0ccaa38dc3e8b4b9ba3ea6a362ef7c",
+    "file": "player search filters/DM CM Deep Playmaker - Full Season.fmf",
+    "sha256": "4a24c4cf78d915de34a8cd4515568931400ebc729ed7a058e0882d3a4a7106fe",
     "positions": [
       "DM",
       "MC"
@@ -1156,8 +1156,8 @@
     "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
   },
   {
-    "file": "views/Chase DM CM Deep Playmaker - Search.fmf",
-    "sha256": "a18f3a1f36f604a1e3bd8a8305d6456b1af5e6c9572bb6dcfae5c950cb8524bd",
+    "file": "views/DM CM Deep Playmaker - Search.fmf",
+    "sha256": "c8f265725382294a52b4c144154c86a80c40900a3cc8d109a632869d4ef5a08e",
     "collection": "PlayerSearchResultsViewCollection",
     "columns": [
       "portrait-name",
@@ -1182,8 +1182,8 @@
     "native_import_status": "Pending"
   },
   {
-    "file": "views/Chase DM CM Deep Playmaker - Shortlist.fmf",
-    "sha256": "07100304be553cab44dcaac9b2132de0cb6cccce20c4954d8408467c255ca9eb",
+    "file": "views/DM CM Deep Playmaker - Shortlist.fmf",
+    "sha256": "6294500574692442bbc4fe8a1f0d1db9804ab8827e7d9a07d7e40d3b404a332e",
     "collection": "PlayerSearchShortlistViewCollection",
     "columns": [
       "portrait-name",
@@ -1208,8 +1208,8 @@
     "native_import_status": "Pending"
   },
   {
-    "file": "player search filters/Chase DM CM Ball Winner - Early.fmf",
-    "sha256": "d9342ddd8dd4912c91804b3c9b4d627c50eb5afad45465515d45038ce57033a9",
+    "file": "player search filters/DM CM Ball Winner - Early.fmf",
+    "sha256": "e8ea963770f69a491840073a11ef3e12c37757ae7414da38c0c5f7c1245817d5",
     "positions": [
       "DM",
       "MC"
@@ -1238,8 +1238,8 @@
     "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
   },
   {
-    "file": "player search filters/Chase DM CM Ball Winner - Midseason.fmf",
-    "sha256": "3e8aa5577827e15e61a4c87bf5ffdfe16bf62476e571aea899b9953aa61e6427",
+    "file": "player search filters/DM CM Ball Winner - Midseason.fmf",
+    "sha256": "4c9fe48b0e103590bab3e2b7a5119606cd523223b03ebf3ad2f964ead45f4b4f",
     "positions": [
       "DM",
       "MC"
@@ -1273,8 +1273,8 @@
     "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
   },
   {
-    "file": "player search filters/Chase DM CM Ball Winner - Full Season.fmf",
-    "sha256": "5d602f396d18cede8d9b2541a7432d11691f7d774ffc3ae652ec53b39388f8b7",
+    "file": "player search filters/DM CM Ball Winner - Full Season.fmf",
+    "sha256": "db74333213426129305572433b0cfa3c056a46e891e5c744e87e099ac3e26432",
     "positions": [
       "DM",
       "MC"
@@ -1308,8 +1308,8 @@
     "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
   },
   {
-    "file": "views/Chase DM CM Ball Winner - Search.fmf",
-    "sha256": "86a60a6fb418bd3a674c32fb0d62c0eb94e2e599e1af8670488e1b64d8133f31",
+    "file": "views/DM CM Ball Winner - Search.fmf",
+    "sha256": "9ef027872d20a67fabb25ee0da64f7a734ecd0584fa7cca1cf57ff175ab90f81",
     "collection": "PlayerSearchResultsViewCollection",
     "columns": [
       "portrait-name",
@@ -1334,8 +1334,8 @@
     "native_import_status": "Pending"
   },
   {
-    "file": "views/Chase DM CM Ball Winner - Shortlist.fmf",
-    "sha256": "1981efed222651d880e956a883bc0a895ceb4e57994668bcda233eb51cfacebe",
+    "file": "views/DM CM Ball Winner - Shortlist.fmf",
+    "sha256": "85944e03ccc872c7a96525cef421e0a3c5ea04c29b67f854801ae51ccf9dc6e4",
     "collection": "PlayerSearchShortlistViewCollection",
     "columns": [
       "portrait-name",
@@ -1360,8 +1360,8 @@
     "native_import_status": "Pending"
   },
   {
-    "file": "player search filters/Chase CM Box to Box - Early.fmf",
-    "sha256": "0037ea85bbc77ee8011104cb2823000fa0a36f814eb5a3139e89b3a370bb7986",
+    "file": "player search filters/CM Box to Box - Early.fmf",
+    "sha256": "d256272195ff8dfdf0bd0a99eec7c48a35b38b81ee1dca1e46583113aa7193b2",
     "positions": [
       "MC"
     ],
@@ -1389,8 +1389,8 @@
     "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
   },
   {
-    "file": "player search filters/Chase CM Box to Box - Midseason.fmf",
-    "sha256": "d296c5a237f798a00d2ebd53930480089aea0b095e1a72683d98478d2aa7fdf6",
+    "file": "player search filters/CM Box to Box - Midseason.fmf",
+    "sha256": "17910431d058e9e2357eb69f593042f5d8f6172144b1d8d87f9a37f4fa98a441",
     "positions": [
       "MC"
     ],
@@ -1423,8 +1423,8 @@
     "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
   },
   {
-    "file": "player search filters/Chase CM Box to Box - Full Season.fmf",
-    "sha256": "484b32aa144d6ca5f6df41e9f3cccf678deea7b84e973dbd6298b240bbf3f9c6",
+    "file": "player search filters/CM Box to Box - Full Season.fmf",
+    "sha256": "a460d9b2531d67de5c37f8329c5be9600b5a0d38bfda136db44db561512f96b4",
     "positions": [
       "MC"
     ],
@@ -1457,8 +1457,8 @@
     "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
   },
   {
-    "file": "views/Chase CM Box to Box - Search.fmf",
-    "sha256": "96d31e7ae4962bb01729ba6c4d1dad725ec72cb63c01616e823c2559e3734986",
+    "file": "views/CM Box to Box - Search.fmf",
+    "sha256": "4ce43c8a6a7b75bb9cada1085731a8a733626fc867d06a865b8691a8bb44163f",
     "collection": "PlayerSearchResultsViewCollection",
     "columns": [
       "portrait-name",
@@ -1484,8 +1484,8 @@
     "native_import_status": "Pending"
   },
   {
-    "file": "views/Chase CM Box to Box - Shortlist.fmf",
-    "sha256": "c74b69a014a7ed044a3e0e0b74bff9a23561578501a606a4506e27e9b3823159",
+    "file": "views/CM Box to Box - Shortlist.fmf",
+    "sha256": "04f6ea28c82eefb4ef67fb5326ab700f24e70ebcf2632e42434576bc6b18b5c0",
     "collection": "PlayerSearchShortlistViewCollection",
     "columns": [
       "portrait-name",
@@ -1511,8 +1511,8 @@
     "native_import_status": "Pending"
   },
   {
-    "file": "player search filters/Chase CAM Attacking - Early.fmf",
-    "sha256": "6f306ec451ea9cf2abea1ae672c197aa8c83bb2fd5e5f975dc4ccff13051afb0",
+    "file": "player search filters/CAM Attacking - Early.fmf",
+    "sha256": "19a5311e3655361b5ec121b877438fd1ed7abeb5455bd679c0ae103fe2fcf065",
     "positions": [
       "AMC"
     ],
@@ -1550,8 +1550,8 @@
     "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
   },
   {
-    "file": "player search filters/Chase CAM Attacking - Midseason.fmf",
-    "sha256": "5686f1a3552031b9e6b2469c4d7d29528ccd3e7ab0d8ff4413b31c0e46595244",
+    "file": "player search filters/CAM Attacking - Midseason.fmf",
+    "sha256": "590e5d639134b6350d788fbc224b69fa703eeaa249f659f96b9d7bba761c80c4",
     "positions": [
       "AMC"
     ],
@@ -1594,8 +1594,8 @@
     "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
   },
   {
-    "file": "player search filters/Chase CAM Attacking - Full Season.fmf",
-    "sha256": "0ea47211a0e00c5e1eba51a805f7da680c72968a69e9147695cd4cfc8cb81277",
+    "file": "player search filters/CAM Attacking - Full Season.fmf",
+    "sha256": "6920e377091439d831d7e5c888dd90aefb5dd29ab790e9312c8d0333bed3cfbb",
     "positions": [
       "AMC"
     ],
@@ -1638,8 +1638,8 @@
     "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
   },
   {
-    "file": "views/Chase CAM Attacking - Search.fmf",
-    "sha256": "e2f4600ef0e443d8ecb8e10ee481108c6910ea1e4610457bf64ae59cf4c8acf9",
+    "file": "views/CAM Attacking - Search.fmf",
+    "sha256": "dae47fe366c4572eac33801fc9edd1b5e28f66e308e02fab151a78cb9cc070dd",
     "collection": "PlayerSearchResultsViewCollection",
     "columns": [
       "portrait-name",
@@ -1666,8 +1666,8 @@
     "native_import_status": "Pending"
   },
   {
-    "file": "views/Chase CAM Attacking - Shortlist.fmf",
-    "sha256": "18ffe8f5b5bc59bbc154fb2c91d0ca84fd1f7e11947359cd8b84017a18e4a45f",
+    "file": "views/CAM Attacking - Shortlist.fmf",
+    "sha256": "a898a278e0efa5f2985ca38c104df8623ade16c601ce96403ec5e979ff1e2030",
     "collection": "PlayerSearchShortlistViewCollection",
     "columns": [
       "portrait-name",
@@ -1694,8 +1694,8 @@
     "native_import_status": "Pending"
   },
   {
-    "file": "player search filters/Chase CAM Free Role - Early.fmf",
-    "sha256": "ac5241698012c7d0861ab10497046a928ba9c242252d41be59aa04cbadfdde3f",
+    "file": "player search filters/CAM Free Role - Early.fmf",
+    "sha256": "69aa192d9b1633041acdb6ceb58c182183fc9afd39bc26e119fd78351b34f208",
     "positions": [
       "AMC"
     ],
@@ -1738,8 +1738,8 @@
     "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
   },
   {
-    "file": "player search filters/Chase CAM Free Role - Midseason.fmf",
-    "sha256": "207d4b1e7a1510c0842ee9953e3d317b2b722b30d744c47b2af7d49010bb5064",
+    "file": "player search filters/CAM Free Role - Midseason.fmf",
+    "sha256": "ec33b8c8a0e7e6f2c7e9d6561dc6cecf9780b0e119b3e2ec86c9960521e4d0cd",
     "positions": [
       "AMC"
     ],
@@ -1787,8 +1787,8 @@
     "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
   },
   {
-    "file": "player search filters/Chase CAM Free Role - Full Season.fmf",
-    "sha256": "a3613fa6085d02f556e0b3fd78e79e38b711512f6b79ebf73d85082fb05847cf",
+    "file": "player search filters/CAM Free Role - Full Season.fmf",
+    "sha256": "6af83f66ca0cd06759433a1f0835d740caa691e9e0f524274763721b9faf5142",
     "positions": [
       "AMC"
     ],
@@ -1836,8 +1836,8 @@
     "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
   },
   {
-    "file": "views/Chase CAM Free Role - Search.fmf",
-    "sha256": "984b8d430ec42d94a207ea965cc20e30a7f473388d2263a8545301462d1a71af",
+    "file": "views/CAM Free Role - Search.fmf",
+    "sha256": "2ef588a7055128cc88d154d0393ee3f94ab3554db394da95865f0c57425cf0e9",
     "collection": "PlayerSearchResultsViewCollection",
     "columns": [
       "portrait-name",
@@ -1864,8 +1864,8 @@
     "native_import_status": "Pending"
   },
   {
-    "file": "views/Chase CAM Free Role - Shortlist.fmf",
-    "sha256": "1615c57cf00e0fa9d47fd1bd372415b4a1f24039c545bff0d9b2fa34ace9e3f7",
+    "file": "views/CAM Free Role - Shortlist.fmf",
+    "sha256": "e1c81642a9805638419823836d29f300f4bc6d0bd8f77e439532fbf2229d407c",
     "collection": "PlayerSearchShortlistViewCollection",
     "columns": [
       "portrait-name",
@@ -1892,8 +1892,8 @@
     "native_import_status": "Pending"
   },
   {
-    "file": "player search filters/Chase W Touchline - Early.fmf",
-    "sha256": "d9af949134647f96345dbad02bf44412027fc2642f22c0ed6442f223543d7bae",
+    "file": "player search filters/W Touchline - Early.fmf",
+    "sha256": "766c9111a6fbd7b22cc28e5526450af07a0d8da942ac64b19bfeb53dee248b5a",
     "positions": [
       "ML",
       "MR",
@@ -1924,8 +1924,8 @@
     "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
   },
   {
-    "file": "player search filters/Chase W Touchline - Midseason.fmf",
-    "sha256": "a4cacb6e06a73415330244f3d171c5e8edf685a9008bf2ca37bd2df540060832",
+    "file": "player search filters/W Touchline - Midseason.fmf",
+    "sha256": "15ac2f87e60cc616757efbec2ea4cbda352e224955c88487108a911b39628573",
     "positions": [
       "ML",
       "MR",
@@ -1961,8 +1961,8 @@
     "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
   },
   {
-    "file": "player search filters/Chase W Touchline - Full Season.fmf",
-    "sha256": "b4eb4e27be7723d635cb710598b9b7f74001e76c9098eb4ba6764f94dd63bf63",
+    "file": "player search filters/W Touchline - Full Season.fmf",
+    "sha256": "2f8b9a833aab39517c8f8c5a6a07cf760cf0f51b737f1371c07b821ef299c6c2",
     "positions": [
       "ML",
       "MR",
@@ -1998,8 +1998,8 @@
     "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
   },
   {
-    "file": "views/Chase W Touchline - Search.fmf",
-    "sha256": "40091e14b9d345d184a9cfa050f480218698fa2263bc0f07a5157b101cf2dd69",
+    "file": "views/W Touchline - Search.fmf",
+    "sha256": "c40fabdbb696e972595ad59eb8eff308e9f9edd8ca64c1f7d7af1fbb49378d5f",
     "collection": "PlayerSearchResultsViewCollection",
     "columns": [
       "portrait-name",
@@ -2024,8 +2024,8 @@
     "native_import_status": "Pending"
   },
   {
-    "file": "views/Chase W Touchline - Shortlist.fmf",
-    "sha256": "c2cf22902e1f667646219d366ac43914b7492fa44332fcbf47b595672615213f",
+    "file": "views/W Touchline - Shortlist.fmf",
+    "sha256": "3750406a087b4b2e3ce1b2b8d39a69c860aca57d3e4c4dd1a5716b3f83e67434",
     "collection": "PlayerSearchShortlistViewCollection",
     "columns": [
       "portrait-name",
@@ -2050,8 +2050,8 @@
     "native_import_status": "Pending"
   },
   {
-    "file": "player search filters/Chase W Inside Forward - Early.fmf",
-    "sha256": "d0eed3ec35bd2c3db7cb3c82d640e5544b40be6b584653efa13170ea95cd2922",
+    "file": "player search filters/W Inside Forward - Early.fmf",
+    "sha256": "e2f54c067084a380d040a7e30298b42b66edd3897991d399b0400a1164172ae2",
     "positions": [
       "AML",
       "AMR"
@@ -2080,8 +2080,8 @@
     "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
   },
   {
-    "file": "player search filters/Chase W Inside Forward - Midseason.fmf",
-    "sha256": "95590ea7c9e8bbc7e567bf9e07ed9bc5d02d423a4a03e48ffa9a42b3178d0e80",
+    "file": "player search filters/W Inside Forward - Midseason.fmf",
+    "sha256": "443e45fd4cafe94384f569859189ec73ec73daa1334785fc99bc3becc664f5c8",
     "positions": [
       "AML",
       "AMR"
@@ -2115,8 +2115,8 @@
     "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
   },
   {
-    "file": "player search filters/Chase W Inside Forward - Full Season.fmf",
-    "sha256": "89ca160515dfb6e8359c223ffc6ffde529a5807cde01ac9e2585fc89c422a9a6",
+    "file": "player search filters/W Inside Forward - Full Season.fmf",
+    "sha256": "dc48ac034dd7dd1ca4c307709e0feb551252236489445781bc5be14a73514502",
     "positions": [
       "AML",
       "AMR"
@@ -2150,8 +2150,8 @@
     "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
   },
   {
-    "file": "views/Chase W Inside Forward - Search.fmf",
-    "sha256": "611453687217b7bbf2e1366debb41b0f01bc559bc8f7fbdb90e4a70ec33fd75e",
+    "file": "views/W Inside Forward - Search.fmf",
+    "sha256": "e8a198e1664bd545c2a379b92565537f3797e457c28d9a9f5034392b39428391",
     "collection": "PlayerSearchResultsViewCollection",
     "columns": [
       "portrait-name",
@@ -2176,8 +2176,8 @@
     "native_import_status": "Pending"
   },
   {
-    "file": "views/Chase W Inside Forward - Shortlist.fmf",
-    "sha256": "0d1931da2dd73e63608fddd3efb26e0203b194fcfc6ab865405f77c4a883093c",
+    "file": "views/W Inside Forward - Shortlist.fmf",
+    "sha256": "1497556a4eebe3567d9caf69bfeef5d18b7ae8708a3df55f4fe93994fce203eb",
     "collection": "PlayerSearchShortlistViewCollection",
     "columns": [
       "portrait-name",
@@ -2202,8 +2202,8 @@
     "native_import_status": "Pending"
   },
   {
-    "file": "player search filters/Chase ST Goalscorer - Early.fmf",
-    "sha256": "edb5f4a9cf2aaaa2faeecfe6b8baf4da108aa70c049d90f6a9561fcc7da32169",
+    "file": "player search filters/ST Goalscorer - Early.fmf",
+    "sha256": "08c47b15185e67aa088db48f53efa3cc764950ff09b07489d3518022998cdc0b",
     "positions": [
       "ST"
     ],
@@ -2231,8 +2231,8 @@
     "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
   },
   {
-    "file": "player search filters/Chase ST Goalscorer - Midseason.fmf",
-    "sha256": "c792322ae17beaaaccf114ac4217feda0db162f63528f1f42b65e985c68b8990",
+    "file": "player search filters/ST Goalscorer - Midseason.fmf",
+    "sha256": "b167cdc8faaab71bdfd617a06ba711090606a4d6a8f50e81e9c501c56b5372f1",
     "positions": [
       "ST"
     ],
@@ -2265,8 +2265,8 @@
     "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
   },
   {
-    "file": "player search filters/Chase ST Goalscorer - Full Season.fmf",
-    "sha256": "2c22eac894056fac5a9044c8a0e5f9febf7b2c8996435df79f12b08d2bc75137",
+    "file": "player search filters/ST Goalscorer - Full Season.fmf",
+    "sha256": "74dcb4b33d5cc3211dd9462ab414fad0f0a212eea3d88c35c892bb83d27a53d1",
     "positions": [
       "ST"
     ],
@@ -2299,8 +2299,8 @@
     "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
   },
   {
-    "file": "views/Chase ST Goalscorer - Search.fmf",
-    "sha256": "ea4cb431ddf5bc6a0ee358ab433b4ec0db0e0eb86521b53a4246ee337009f63b",
+    "file": "views/ST Goalscorer - Search.fmf",
+    "sha256": "c50dd1fe8c3856de0fe86742aa94ef86d36e8c280a1f2aacb1e64ffdc2c91541",
     "collection": "PlayerSearchResultsViewCollection",
     "columns": [
       "portrait-name",
@@ -2325,8 +2325,8 @@
     "native_import_status": "Pending"
   },
   {
-    "file": "views/Chase ST Goalscorer - Shortlist.fmf",
-    "sha256": "9e4d055936f9a1995667b4866dc60c718a67687f5e3fcf8b19e3ed80023c1e24",
+    "file": "views/ST Goalscorer - Shortlist.fmf",
+    "sha256": "e6cc42800fe4015785f0a46d993bf5f63637b7231bfd01cae634aaf62db5d37d",
     "collection": "PlayerSearchShortlistViewCollection",
     "columns": [
       "portrait-name",
@@ -2351,8 +2351,8 @@
     "native_import_status": "Pending"
   },
   {
-    "file": "player search filters/Chase ST Target - Early.fmf",
-    "sha256": "2cf1103ac1849e6e29f104df99807d6b3c40d1acf91ea22ac8d8e017ee387edc",
+    "file": "player search filters/ST Target - Early.fmf",
+    "sha256": "9dafdf0aba8bbdf7fcf5e56493c1c18588a052f9ec6b2f5cd711ec74c812f5ca",
     "positions": [
       "ST"
     ],
@@ -2380,8 +2380,8 @@
     "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
   },
   {
-    "file": "player search filters/Chase ST Target - Midseason.fmf",
-    "sha256": "7df359d23d146550c65a12f950efb8644cce5ebe64c9ef154574a80a9a7f9bcd",
+    "file": "player search filters/ST Target - Midseason.fmf",
+    "sha256": "27a89d96cb7d642f04461f2788819b12b203ca9a8ada62f0689af31d6de641fa",
     "positions": [
       "ST"
     ],
@@ -2414,8 +2414,8 @@
     "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
   },
   {
-    "file": "player search filters/Chase ST Target - Full Season.fmf",
-    "sha256": "e94881c4db368667597d73cd8be36172450664e861f8ff874b8fc030808b1500",
+    "file": "player search filters/ST Target - Full Season.fmf",
+    "sha256": "b7943cd13539b2aba92a3d9d2ba85b2fc87b34433987198615ff8ababfea1ad6",
     "positions": [
       "ST"
     ],
@@ -2448,8 +2448,8 @@
     "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
   },
   {
-    "file": "views/Chase ST Target - Search.fmf",
-    "sha256": "1aa63b808348c278057b6aced517f7cbc375a1539230d02ff93008c9d89c2a51",
+    "file": "views/ST Target - Search.fmf",
+    "sha256": "85e826654e1673f3db90c72c5d6f4e93fb2abf12528e95755c4e71df2bcad511",
     "collection": "PlayerSearchResultsViewCollection",
     "columns": [
       "portrait-name",
@@ -2474,8 +2474,8 @@
     "native_import_status": "Pending"
   },
   {
-    "file": "views/Chase ST Target - Shortlist.fmf",
-    "sha256": "b38fb49e10380443c30ee4df6d4c5078d3024adfdfc2cb0562c091daad7b9d47",
+    "file": "views/ST Target - Shortlist.fmf",
+    "sha256": "49b74ad78c0f1b08d1ff0d43ccf73c5294387f579cf4e07a670d44343a682d38",
     "collection": "PlayerSearchShortlistViewCollection",
     "columns": [
       "portrait-name",
@@ -2500,8 +2500,8 @@
     "native_import_status": "Pending"
   },
   {
-    "file": "player search filters/Chase ST Linking - Early.fmf",
-    "sha256": "d706905e1209880e6e985e9b3a037a894f83b2c5838da033d59f39b8b0c3aca6",
+    "file": "player search filters/ST Linking - Early.fmf",
+    "sha256": "0a720ae4576fa7c03d96e53eb85e078d7dfceabbc5484ef07445c0ec7c452fb8",
     "positions": [
       "ST"
     ],
@@ -2529,8 +2529,8 @@
     "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
   },
   {
-    "file": "player search filters/Chase ST Linking - Midseason.fmf",
-    "sha256": "1f7ff0f09bc92c3bcb3db5a1e959c208fdfc4ea6065e2c47ecdc6fd85f9d8f36",
+    "file": "player search filters/ST Linking - Midseason.fmf",
+    "sha256": "3ef948af477745ec1b6f3d510ebf25100cd0ccd700e7085a61b1ab3b06e16caf",
     "positions": [
       "ST"
     ],
@@ -2563,8 +2563,8 @@
     "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
   },
   {
-    "file": "player search filters/Chase ST Linking - Full Season.fmf",
-    "sha256": "ce4b63b89ee3b4237fa2869d7ac5fd02f668072e240dc39f7ee27d4c70b8c3cb",
+    "file": "player search filters/ST Linking - Full Season.fmf",
+    "sha256": "2068797e313782d8656a2649b593e06144ada6989d096cb60fcc1b4389a61052",
     "positions": [
       "ST"
     ],
@@ -2597,8 +2597,8 @@
     "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
   },
   {
-    "file": "views/Chase ST Linking - Search.fmf",
-    "sha256": "ec04a86950558323f9f8589cbb307542891e303cbae3f00a61a0ccbb7540fb84",
+    "file": "views/ST Linking - Search.fmf",
+    "sha256": "16b5a0f603bd6cf2f33c557d1761c1ca02cd8016cf096445e8d3afe3566a3307",
     "collection": "PlayerSearchResultsViewCollection",
     "columns": [
       "portrait-name",
@@ -2623,8 +2623,8 @@
     "native_import_status": "Pending"
   },
   {
-    "file": "views/Chase ST Linking - Shortlist.fmf",
-    "sha256": "37e7053d81a99baafd03254fc1849fe21e7816744119058146be526cef8f84d6",
+    "file": "views/ST Linking - Shortlist.fmf",
+    "sha256": "952470f70c186bd7e60b44d8828ceba32610eba0510ed0d401ae29e207f35a8e",
     "collection": "PlayerSearchShortlistViewCollection",
     "columns": [
       "portrait-name",
@@ -2649,8 +2649,8 @@
     "native_import_status": "Pending"
   },
   {
-    "file": "player search filters/Chase ST Pressing - Early.fmf",
-    "sha256": "d23d555c1e1ca9ed02c2f08c4aa5b303a7690db63f31a9375c51676629049367",
+    "file": "player search filters/ST Pressing - Early.fmf",
+    "sha256": "25fd26a0774db2d34a6d9741bd0e0d5e338eafeccf80db45dd2443c35eaf790f",
     "positions": [
       "ST"
     ],
@@ -2678,8 +2678,8 @@
     "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
   },
   {
-    "file": "player search filters/Chase ST Pressing - Midseason.fmf",
-    "sha256": "d5119e2e55ebdd5966a9a6054b87a8b234227fd5831cedc9d9ac0b2d36b5e057",
+    "file": "player search filters/ST Pressing - Midseason.fmf",
+    "sha256": "e1cccf0badaba3e72e23448b1150090bf2f7ebe9d3c9766f851ee2ae369b2cf3",
     "positions": [
       "ST"
     ],
@@ -2712,8 +2712,8 @@
     "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
   },
   {
-    "file": "player search filters/Chase ST Pressing - Full Season.fmf",
-    "sha256": "c503cdff61102fc37c6c74da04650d99065cc36bf71c55c82a8a971fa95124da",
+    "file": "player search filters/ST Pressing - Full Season.fmf",
+    "sha256": "833f3a376d808443e7db212262988fa9e9a929ccc2dafb2318dc4937d2e8815a",
     "positions": [
       "ST"
     ],
@@ -2746,8 +2746,8 @@
     "native_import_status": "Pending; only original WB(R) v0.1 was user-verified"
   },
   {
-    "file": "views/Chase ST Pressing - Search.fmf",
-    "sha256": "b0341fab6109736b9853d17aa4b4de711315deb19cdcc8970157b2245583141f",
+    "file": "views/ST Pressing - Search.fmf",
+    "sha256": "92732d3a956713911b869c17a4712ac8042bd2b0b83bd8632b63f8f29d54506f",
     "collection": "PlayerSearchResultsViewCollection",
     "columns": [
       "portrait-name",
@@ -2772,8 +2772,8 @@
     "native_import_status": "Pending"
   },
   {
-    "file": "views/Chase ST Pressing - Shortlist.fmf",
-    "sha256": "c90c225a726b555013088a3e5e265aa37cd64db9728484a5dda80cfd7670a0d5",
+    "file": "views/ST Pressing - Shortlist.fmf",
+    "sha256": "7bd2388c30a72f79f5fdee1ddc8125f5301f7429d76dd8c86badb2ca93cd1940",
     "collection": "PlayerSearchShortlistViewCollection",
     "columns": [
       "portrait-name",

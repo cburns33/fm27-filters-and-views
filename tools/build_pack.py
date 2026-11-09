@@ -8,6 +8,7 @@ import xml.etree.ElementTree as ET
 BASE = Path(os.environ.get('FM27_PACK_PROJECT', Path(__file__).resolve().parents[1]))
 GAME = Path(os.environ.get('FM27_USER_DIR', Path.home() / 'Documents' / 'Sports Interactive' / 'Football Manager 27'))
 WORK = Path(os.environ.get('FM27_BUILD_INPUTS', BASE / 'private-inputs'))
+NATIVE_SAMPLES = Path(os.environ.get('FM27_NATIVE_SAMPLES', WORK / 'native-samples'))
 OUT = BASE / 'pack'
 
 def string(value):
@@ -59,7 +60,7 @@ def unarchive(data):
     assert cursor == len(manifest)
     return root, files, data[footer_at:footer_at+18]
 
-sample = (GAME/'player search filters/Chase Sample WB.fmf').read_bytes()
+sample = (NATIVE_SAMPLES/'Chase Sample WB.fmf').read_bytes()
 _, native_files, FOOTER = unarchive(sample)
 native = dict(native_files)
 PFT = next(value for key, value in native_files if key.endswith('.pft'))
@@ -200,7 +201,7 @@ def build():
         for field,_ in criteria:assert field in metadata
         mask=sum(POS[p] for p in positions)
         for season,minutes in [('Early',0),('Midseason',1000),('Full Season',2000)]:
-            name='Chase '+title+' - '+season
+            name=title+' - '+season
             filters=([('POmi',minutes)] if minutes else [])+criteria
             prefix=PREFIX.replace(string(OLD_NAME),string(name))
             prefix=prefix.replace(b'\x01\x00\x01\x15\0\0\0',b'\x01\x00\x01'+struct.pack('<I',20+len(filters)))
@@ -216,7 +217,7 @@ def build():
                 'league_conditions':[],'native_import_status':'Pending; only original WB(R) v0.1 was user-verified'})
         fields=list(dict.fromkeys([f for f,_ in criteria]+review))
         for label,collection in [('Search','PlayerSearchResultsViewCollection'),('Shortlist','PlayerSearchShortlistViewCollection')]:
-            name='Chase '+title+' - '+label
+            name=title+' - '+label
             raw,ids=view(name,fields,collection,rows,field_columns)
             packed=archive(name,[('image.img',IMAGE),(name+'.view',raw),('_data/details.aom',details(name,'VIEW_TYPE_HANDLER'))])
             (OUT/'views'/(name+'.fmf')).write_bytes(packed)

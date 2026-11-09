@@ -1,6 +1,6 @@
 """Check generated native payloads, independent of the compiler's round-trip check."""
 import json, struct
-from build_pack import BASE, OUT, GAME, number, unarchive, metadata, POS, condition
+from build_pack import BASE, OUT, NATIVE_SAMPLES, number, unarchive, metadata, POS, condition
 
 def read_number(data, offset):
     assert data[offset] == 1
@@ -14,7 +14,7 @@ for n in [-32769,-32768,-129,-128,-1,0,10,100,127,128,150,255,256,1000,2000,3276
 
 # Independent native-export checks, rather than matching the compiler's constants.
 def native_position(filename):
-    _,files,_=unarchive((GAME/'player search filters'/filename).read_bytes())
+    _,files,_=unarchive((NATIVE_SAMPLES/filename).read_bytes())
     raw=next(v for n,v in files if n.endswith('.pft'))
     start=raw.index(b'sopp')
     return read_number(raw,raw.index(b'lvlf',start)+4)
@@ -35,6 +35,8 @@ manifest=json.loads((OUT/'manifest.json').read_text(encoding='utf-8'))
 count=0
 for item in manifest:
     root,files,_=unarchive((OUT/item['file']).read_bytes())
+    assert not root.startswith('Chase ')
+    assert not item['file'].split('/')[-1].startswith('Chase ')
     data=dict(files)
     if 'criteria' in item:
         raw=data[root+'.pft']

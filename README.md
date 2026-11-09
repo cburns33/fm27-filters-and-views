@@ -1,25 +1,27 @@
 # FM27 Filters and Views
 
-Chase's Moneyball recruitment pack for Football Manager 27.
+Moneyball recruitment pack for Football Manager 27.
 
 - **54 filters:** 18 recruitment profiles, each with Early, Midseason and Full Season versions.
 - **36 matching views:** Player Search and Shortlist versions for every profile.
 - **League-free masters:** choose recruitment markets for the team you manage.
 
+Start with the [step-by-step installation guide](docs/installation.md) and [adapting the pack to your league](docs/league-selection.md).
+
 ## Install
 
-Copy the contents of `pack/player search filters` and `pack/views` into the matching folders under your Football Manager 27 user directory. Create the folders if needed.
+Copy the `.fmf` files from the supplied `player search filters` and `views` folders into the matching folders under your Football Manager 27 user directory. Create the folders if needed. In the repository download, these two folders are inside `pack`; in the dedicated pack ZIP, they are at the top level.
 
 Typical Windows location: `Documents/Sports Interactive/Football Manager 27/`.
 
 In FM27:
 
 1. Open Recruitment > Player Database > Edit Search.
-2. Use the gear menu > Load Filter and choose a Chase profile.
+2. Use the gear menu > Load Filter and choose a role profile.
 3. Apply the search, then use the view dropdown > Import View to load that profile's **Search** view.
 4. On a shortlist, import its **Shortlist** view instead.
 
-A ZIP with the two installation folders is available in [downloads](downloads/Chase-Moneyball-v0.2.zip).
+A ZIP with the two installation folders is available in [downloads](downloads/FM27-Filters-and-Views-v0.2.zip).
 
 ## Season versions
 
